@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+html {
+  background-color: #F0FAFF;
+}
+
+#images {
+  width: 600px;
+  height: 341px;
+  margin: 50px auto;
+}
+
+#images img {
+  border: 1px solid black;
+}
+
+#info {
+  width: 680px;
+  margin: auto;
+  text-align: center;
+}
+
+#name h1 {
+  text-align: center;
+}
