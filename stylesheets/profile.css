@@ -2,24 +2,24 @@
 
 @font-face {
     font-family: "yellow";
-    src: url("fonts/Yellow.eot");
-    src: url("fonts/Yellow.eot?#iefix") format("embedded-opentype"),
-         url("fonts/Yellow.woff2") format("woff2"),
-         url("fonts/Yellow.woff") format("woff"),
-         url("fonts/Yellow.ttf") format("truetype"),
-         url("fonts/Yellow.svg#Yellow") format("svg");
+    src: url("../fonts/Yellow.eot");
+    src: url("../fonts/Yellow.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Yellow.woff2") format("woff2"),
+         url("../fonts/Yellow.woff") format("woff"),
+         url("../fonts/Yellow.ttf") format("truetype"),
+         url("../fonts/Yellow.svg#Yellow") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "yellowbold";
-    src: url("fonts/YellowBold.eot");
-    src: url("fonts/YellowBold.eot?#iefix") format("embedded-opentype"),
-         url("fonts/YellowBold.woff2") format("woff2"),
-         url("fonts/YellowBold.woff") format("woff"),
-         url("fonts/YellowBold.ttf") format("truetype"),
-         url("fonts/YellowBold.svg#YellowBold") format("svg");
+    src: url("../fonts/YellowBold.eot");
+    src: url("../fonts/YellowBold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/YellowBold.woff2") format("woff2"),
+         url("../fonts/YellowBold.woff") format("woff"),
+         url("../fonts/YellowBold.ttf") format("truetype"),
+         url("../fonts/YellowBold.svg#YellowBold") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -41,7 +41,7 @@ html, body {
   background-color: #E1CFCC;
   height: 802px;
   margin: 0px auto 0px auto;
-  width: 956px;
+  width: 100%;
 }
 
 .logo img {
@@ -109,7 +109,7 @@ nav a {
   background-color: #E1CFCC;
   height: 802px;
   margin: 42px auto 0px auto;
-  width: 956px;
+  width: 100%;
 }
 
 /*Social*/
@@ -167,7 +167,7 @@ span {
   background-color: #E1CFCC;
   height: 803px;
   margin: 20px auto 0px auto;
-  width: 956px;
+  width: 100%;
 }
 
 
