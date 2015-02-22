@@ -2,24 +2,24 @@
 
 @font-face {
     font-family: 'yellow_peas_demoregular';
-    src: url('yellow peas demo-webfont.eot');
-    src: url('yellow peas demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('yellow peas demo-webfont.woff2') format('woff2'),
-         url('yellow peas demo-webfont.woff') format('woff'),
-         url('yellow peas demo-webfont.ttf') format('truetype'),
-         url('yellow peas demo-webfont.svg#yellow_peas_demoregular') format('svg');
+    src: url('fonts/yellow peas demo-webfont.eot');
+    src: url('fonts/yellow peas demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yellow peas demo-webfont.woff2') format('woff2'),
+         url('fonts/yellow peas demo-webfont.woff') format('woff'),
+         url('fonts/yellow peas demo-webfont.ttf') format('truetype'),
+         url('fonts/yellow peas demo-webfont.svg#yellow_peas_demoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'yellow_peas_bold';
-    src: url('Yellow Peas Bold demo-webfont.eot');
-    src: url('Yellow Peas Bold demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Yellow Peas Bold demo-webfont.woff2') format('woff2'),
-         url('Yellow Peas Bold demo-webfont.woff') format('woff'),
-         url('Yellow Peas Bold demo-webfont.ttf') format('truetype'),
-         url('Yellow Peas Bold demo-webfont.svg#yellow_peas_bold') format('svg');
+    src: url('fonts/Yellow Peas Bold demo-webfont.eot');
+    src: url('fonts/Yellow Peas Bold demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Yellow Peas Bold demo-webfont.woff2') format('woff2'),
+         url('fonts/Yellow Peas Bold demo-webfont.woff') format('woff'),
+         url('fonts/Yellow Peas Bold demo-webfont.ttf') format('truetype'),
+         url('fonts/Yellow Peas Bold demo-webfont.svg#yellow_peas_bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
