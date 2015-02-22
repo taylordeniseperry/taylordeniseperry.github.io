@@ -46,7 +46,7 @@ html, body {
 
 .logo img {
   margin-top: 111px;
-  margin-left: 221px;
+  width: 100%;
 }
 
 /*About*/
@@ -91,7 +91,7 @@ nav a {
 .abouttext {
   font-family: "yellow", arial;
   position:absolute;
-  bottom: -650px;
+  bottom: -656px;
 }
 
 .abouttext h1 {
