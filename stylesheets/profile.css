@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'yellow_peas_demoregular';
-    src: url('fonts/yellow peas demo-webfont.eot');
-    src: url('fonts/yellow peas demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/yellow peas demo-webfont.woff2') format('woff2'),
-         url('fonts/yellow peas demo-webfont.woff') format('woff'),
-         url('fonts/yellow peas demo-webfont.ttf') format('truetype'),
-         url('fonts/yellow peas demo-webfont.svg#yellow_peas_demoregular') format('svg');
+    font-family: "yellow_peas_demoregular";
+    src: url("fonts/yellow peas demo-webfont.eot");
+    src: url("fonts/yellow peas demo-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/yellow peas demo-webfont.woff2") format("woff2"),
+         url("fonts/yellow peas demo-webfont.woff") format("woff"),
+         url("fonts/yellow peas demo-webfont.ttf") format("truetype"),
+         url("fonts/yellow peas demo-webfont.svg#yellow_peas_demoregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'yellow_peas_bold';
-    src: url('fonts/Yellow Peas Bold demo-webfont.eot');
-    src: url('fonts/Yellow Peas Bold demo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Yellow Peas Bold demo-webfont.woff2') format('woff2'),
-         url('fonts/Yellow Peas Bold demo-webfont.woff') format('woff'),
-         url('fonts/Yellow Peas Bold demo-webfont.ttf') format('truetype'),
-         url('fonts/Yellow Peas Bold demo-webfont.svg#yellow_peas_bold') format('svg');
+    font-family: "yellow_peas_bold";
+    src: url("fonts/Yellow Peas Bold demo-webfont.eot");
+    src: url("fonts/Yellow Peas Bold demo-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/Yellow Peas Bold demo-webfont.woff2") format("woff2"),
+         url("fonts/Yellow Peas Bold demo-webfont.woff") format("woff"),
+         url("fonts/Yellow Peas Bold demo-webfont.ttf") format("truetype"),
+         url("fonts/Yellow Peas Bold demo-webfont.svg#yellow_peas_bold") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -73,7 +73,7 @@ nav {
 }
 
 nav a {
-  font-family: 'yellow_peas_demoregular', arial;
+  font-family: "yellow_peas_demoregular", arial;
   padding: 0px 20px 0px 20px;
   text-decoration: none;
   color: #E1CFCC;
@@ -88,7 +88,7 @@ nav a {
 }
 
 .abouttext {
-  font-family: 'yellow_peas_demoregular', arial;
+  font-family: "yellow_peas_demoregular", arial;
   position:absolute;
   bottom: -650px;
 }
@@ -141,7 +141,7 @@ nav a {
 }
 
 #connecttext h1{
-  font-family: 'yellow_peas_demoregular', arial;
+  font-family: "yellow_peas_demoregular", arial;
   color: #E1CFCC;
   font-weight: bold;
   font-size: 5em;
@@ -149,7 +149,7 @@ nav a {
 }
 
 span {
-  font-family: 'yellow_peas_bold', arial;
+  font-family: "yellow_peas_bold", arial;
 }
 
 #icontwo {
