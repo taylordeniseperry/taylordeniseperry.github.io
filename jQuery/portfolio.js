@@ -12,4 +12,32 @@ $(document).ready(function(){
       }
     }
   });
+
+target_offset = $('#about').offset(),
+    target_top = target_offset.top;
+    $('html, body').delay(2000).animate({
+        scrollTop: target_top
+    }, 2000);
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 820)
+    { $('#menu').fadeIn(400);}
+        else
+    { $('#menu').fadeOut(400);}
   });
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 550)
+    { $('.skills, .abouttext').fadeIn(700);}
+        else
+    { $('.skills, .abouttext').fadeOut(700);}
+  });
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 3000)
+    { $('#resume, #resumeimage').slideDown("fast","linear");}
+        else
+    { $('#resume, #resumeimage').fadeOut(500);}
+  });
+
+});
