@@ -13,7 +13,7 @@ $(document).ready(function(){
     }
   });
 
-target_offset = $('#about').offset(),
+  target_offset = $('#about').offset(),
     target_top = target_offset.top;
     $('html, body').delay(2000).animate({
         scrollTop: target_top
@@ -37,7 +37,7 @@ target_offset = $('#about').offset(),
     if ($(this).scrollTop() > 3000)
     { $('#resume, #resumeimage').slideDown("fast","linear");}
         else
-    { $('#resume, #resumeimage').fadeOut(500);}
+    { $('#resume, #resumeimage').slideUp("fast","linear");}
   });
 
 });
