@@ -92,12 +92,13 @@ nav a {
 .abouttext {
   font-family: "yellow", arial;
   position:absolute;
-  bottom: -656px;
+  bottom: -600px;
 }
 
 .abouttext h1 {
   font-size: 5em;
   color: #C2BCC3;
+  margin-bottom: 30px;
 }
 
 .abouttext p {
