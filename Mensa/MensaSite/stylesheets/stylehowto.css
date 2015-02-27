@@ -56,6 +56,13 @@ nav a {
   font-family: 'archivo_blackregular', arial;
 }
 
+nav a:hover{
+  -webkit-stroke-width: 10px;
+  -webkit-stroke-color: #087fda;
+  -webkit-fill-color: #087fda;
+  text-shadow: 1px 0px 20px #087fda;
+}
+
 #main {
   height:1100px;
   width: 100%;

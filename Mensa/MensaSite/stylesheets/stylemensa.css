@@ -54,6 +54,35 @@ nav a {
   height: 56px;
   padding: 0px 50px;
   font-family: 'archivo_blackregular', arial;
+
+}
+
+nav a:hover{
+  -webkit-stroke-width: 10px;
+  -webkit-stroke-color: #087fda;
+  -webkit-fill-color: #087fda;
+  text-shadow: 1px 0px 20px #087fda;
+}
+
+#hover {
+  height:100px;
+  width: 800px;
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  position: absolute;
+  top: 570px;
+  display: none;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#latest:hover #hover {
+  display: block;
+}
+
+#hover p {
+  padding-top: 0px;
 }
 
 #main {
@@ -98,12 +127,12 @@ nav a {
 }
 
 #latest p {
-  color: gray;
+  color: white;
   font-size: 3em;
   text-align: center;
-  padding-top: 130px;
   opacity: .5;
   font-family: 'archivo_blackregular', arial;
+  padding-top: 30px;
 }
 
 #tiles {
