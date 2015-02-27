@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/white_wall.png");
+}
+
+#wrap {
+  width: 100%;
+  height: 1600px;
+  margin: auto;
+}
+
+#logo {
+  height: 170px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Mensa {
+  float: left;
+  margin-top: 65px;
+  margin-left: 430px;
+  font-size: 3em;
+  color: #2D307A;
+  font-family: 'archivo_blackregular', arial;
+}
+
+.NewYork {
+  float: right;
+  margin-top: 65px;
+  margin-right: 355px;
+  font-size: 3em;
+  color: #2D307A;
+  font-family: 'archivo_blackregular', arial;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #2D307A;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'archivo_blackregular', arial;
+}
+
+nav a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  height: 56px;
+  padding: 0px 50px;
+  font-family: 'archivo_blackregular', arial;
+}
+
+#main {
+  height:1550px;
+  width: 100%;
+  background-image: url("../images/white_wall.png");
+}
+
+#eventboxes {
+  height: 1000px;
+  width: 460px;
+  float: left;
+
+}
+
+h3 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  color: #2D307A;
+  font-family: 'archivo_blackregular', arial;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+#featured, #recent, #past {
+  height: 400px;
+  width: 420px;
+  background-color: white;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px #aeaeae;
+}
+
+#featured p, #recent p, #past p {
+  padding: 17px;
+  color: #2D307A;
+  font-family: 'archivo_blackregular', arial;
+}
+
+#outer {
+  width: 815px;
+  height: 1200px;
+  margin: auto;
+}
+
+#entryinfo {
+  height:400px;
+  width: 300px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 65px;
+}
+
+#one, #two {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  color:#2D307A;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px #aeaeae;
+}
+
+#one h4, #one p, #two h4, #two p  {
+  padding: 30px;
+  font-family: 'archivo_blackregular', arial;
+  font-size: 2em;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #2D307A;
+  text-align: center;
+}
+
+footer img {
+  margin-top: 10px;
+}
+
+.pleft {
+  height: 55px;
+  width: 500px;
+  float: left;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-family: 'archivo_blackregular', arial;
+}
+
+.pright {
+  height: 55px;
+  width: 500px;
+  float: right;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 25px;
+  margin-right: 100px;
+  font-family: 'archivo_blackregular', arial;
+}
