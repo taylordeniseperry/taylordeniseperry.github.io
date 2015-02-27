@@ -110,6 +110,7 @@ nav a {
   height: 300px;
   width: 1000px;
   margin: auto;
+  margin-top: 60px;
 }
 
 #spotlight, #community, #upcoming {
@@ -117,20 +118,44 @@ nav a {
   width: 250px;
   background-color: white;
   display: inline-block;
-  margin: 50px auto;
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 2px 2px 30px #aeaeae;
+  overflow: auto;
 }
 
-#spotlight p, #community p, #upcoming p {
+#spotlight p {
  color: gray;
  opacity: 0.5;
- text-align: center;
- font-size: 1.5em;
- margin-top: 175px;
+ font-size: 1em;
  font-family: 'archivo_blackregular', arial;
+ padding: 20px;
 }
+
+#community p {
+ color: gray;
+ opacity: 0.5;
+ font-size: 1em;
+ font-family: 'archivo_blackregular', arial;
+ padding: 20px;
+}
+
+h6 {
+  padding-top: 50px;
+  text-align: center;
+  color: gray;
+  opacity: 0.5;
+  font-size: 1.5em;
+}
+
+#upcoming p {
+ color: gray;
+ opacity: 0.5;
+ font-size: 1em;
+ font-family: 'archivo_blackregular', arial;
+ padding: 20px;
+}
+
 
 #spotlight {
   margin-left: 100px;
