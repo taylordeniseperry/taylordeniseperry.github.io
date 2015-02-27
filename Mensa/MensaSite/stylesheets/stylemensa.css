@@ -110,7 +110,7 @@ nav a {
   height: 300px;
   width: 1000px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 #spotlight, #community, #upcoming {
@@ -129,7 +129,7 @@ nav a {
  opacity: 0.5;
  font-size: 1em;
  font-family: 'archivo_blackregular', arial;
- padding: 20px;
+ padding: 25px 20px 20px 20px;
 }
 
 #community p {

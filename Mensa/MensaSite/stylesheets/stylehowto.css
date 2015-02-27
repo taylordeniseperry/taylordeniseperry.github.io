@@ -64,7 +64,7 @@ nav a {
 
 #wrapped {
   width: 800px;
-  height: 1300px;
+  height: 1175px;
   margin: auto;
 }
 
@@ -80,8 +80,8 @@ nav a {
 }
 
 #join p, #quiz p, #sample p {
-  color: #2D307A;
-  padding: 20px 20px 20px 17px;
+  color: gray;
+  padding: 30px 20px 10px 17px;
   font-family: 'archivo_blackregular', arial;
 }
 
