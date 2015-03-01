@@ -38,10 +38,11 @@ html, body {
 /*Home*/
 
 #home {
-  background-color: #E1CFCC;
+  background-image: url("../images/rockywall.png");
   height: 802px;
   margin: 0px auto 0px auto;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 
 .logo img {
@@ -70,7 +71,7 @@ nav {
   padding-top: 15px;
   z-index: 1;
   opacity: 1;
-  border-bottom: 1px solid #E1CFCC;
+  border-bottom: 1px solid black;
   display: none;
 }
 
@@ -78,7 +79,7 @@ nav a {
   font-family: "yellow", arial;
   padding: 0px 20px 0px 20px;
   text-decoration: none;
-  color: #E1CFCC;
+  color: black;
 }
 
 .skills {
@@ -109,10 +110,12 @@ nav a {
 /*Work*/
 
 #work {
-  background-color: #E1CFCC;
+  background-image: url("../images/rockywall.png");
   height: 802px;
   margin: 42px auto 0px auto;
   width: 100%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 /*Social*/
@@ -173,7 +176,7 @@ span {
   height: 160px;
   text-align: center;
   font-family: 'yellow', arial;
-  color: white;
+  color: black;
   font-size: 2em;
   display: none;
 }
@@ -191,9 +194,10 @@ span {
 }
 
 #contact {
-  background-color: #E1CFCC;
+  background-image: url("../images/rockywall.png");
   height: 803px;
   width: 100%;
+  border-top: 1px solid black;
 }
 
 .container {
@@ -226,7 +230,7 @@ span {
   height:40px;
   text-transform:uppercase;
   letter-spacing:1px;
-  color:#FFF;
+  color: black;
   }
 
 form {
