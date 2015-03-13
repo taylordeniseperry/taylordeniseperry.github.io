@@ -1,82 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Taylor's Site</title>
-  <script src="jQuery/jquery.js" type="text/javascript"></script>
-  <script src="jQuery/portfolio.js" type="text/javascript"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/profile.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 
 <body>
-  <div id="wrap">
-    <div id="home">
-      <div class="logo">
-        <img src="images/HomeName.svg" height="670" width="1442">
-      </div>
-      <nav id="menu">
-        <a href="#about">about</a>
-        <a href="#work">work</a>
-        <a href="#social">social</a>
-        <a href="#contact">contact</a>
-      </nav>
-    </div>
-
-    <div id="about">
-      <div class="skills" id="mybutton">
-        <img src="images/AboutSkills.png" height="607" width="1075">
-      </div>
-      <div class="abouttext">
-        <h1>hi, im taylor!</h1>
-        <p>A web designer<br>
-           and developer with<br>
-           a hint of graphic<br>
-           design for you.</p>
+  <div class="nameheader">
+    <div class="container-fluid">
+      <div class="row">
+        <img class="img-responsive" src="images/name.png">
+        </div>
       </div>
     </div>
-
-    <div id="work">
-
-    </div>
-
-    <div id="social">
-      <div id="iconone">
-        <a href="https://www.facebook.com/taylor.d.perry.7" target="_blank"><img src="images/facebook_icon.svg" height="178" width="167"></a>
-        <a href="https://plus.google.com/116510634229121428031/posts" target="_blank"><img src="images/googleplus_icon.svg" height="178" width="167"></a>
-        <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter_icon.svg" height="178" width="167"></a>
-      </div>
-      <div id="connecttext">
-        <h1><span>let's</span> connect</h1>
-      </div>
-      <div id="icontwo">
-        <a href="https://www.pinterest.com/tayybelle/" target="_blank"><img src="images/pinterest_icon.svg" height="178" width="167"></a>
-        <a href="https://www.linkedin.com/profile/view?id=386302466&trk=nav_responsive_tab_profile_pic" target="_blank"><img src="images/linkedin_icon.svg" height="178" width="167"></a>
-        <a href="https://instagram.com/tayelah/" target="_blank"><img src="images/instagram_icon.svg" height="178" width="167"></a>
-      </div>
-    </div>
-
-    <div id="contact">
-
-      <div id="resume">
-        <p>my gift to you, <br>take my awesomeness with you.<br><br> download my resume!</p>
-      </div>
-
-      <div id="resumeimage">
-        <a href="images/Taylor_Resume.pdf" target="_blank"><img src="images/Resume.svg" height="121" width="100"></a>
-      </div>
-
-      <div class="container">
-        <form action="mailto:tdperry@g.clemson.edu" name="htmlform" method="post">
-          <input type="text" name="first_name" placeholder="NAME" required>
-          <input  type="email" name="email" placeholder="MAIL" required>
-          <textarea name="comments" placeholder="MESSAGE" required ></textarea>
-          <button name="send" type="submit" class="submit">SEND</button>
-        </form>
-      </div>
-    </div>
-
   </div>
-</body>
 
+  <div class="index_links">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="home.html"><h1 class="left">Enter Site</h1></a>
+      </div>
+      <div class="col-sm-6">
+        <a href="#"><h1 class="right">Portfolio</h1></a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
 </html>
