@@ -1,0 +1,51 @@
+/*Index*/
+
+@media screen and (max-width: 768px) {
+  .index_links .right, .index_links .left {
+    font-size: 1.2em;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  }
+
+  /*Home Main*/
+
+@media screen and (max-width: 768px) {
+    .row .about-right, .row .about-right p {
+  text-align: center; }
+
+    .row .skills-middle, .row .skills-middle p {
+      text-align: center; }
+
+    .row .education-left, .row .education-left p {
+      text-align: center; }
+
+    .main .row {
+      height: 1100px;
+      padding-top: }
+
+    .main {
+      padding-top: 142px; }
+}
+
+/*Home Footer*/
+
+@media screen and (max-width: 768px) {
+  .navbar-fixed-bottom p {
+    font-size: 1em;
+  }
+  }
+
+/*Portfolio*/
+
+@media screen and (max-width: 990px) {
+  .gallery {
+    width: 600px;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    width: 230px;
+  }
+  }
