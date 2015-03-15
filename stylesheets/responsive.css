@@ -49,3 +49,29 @@
     width: 230px;
   }
   }
+
+/*In Your Corner*/
+
+@media screen and (max-width: 1200px) {
+  .work_one {
+    height: 11200px;
+  }
+  }
+
+@media screen and (max-width: 995px) {
+  .work_one {
+    height: 8750px;
+  }
+  }
+
+@media screen and (max-width: 400px) {
+  .work_one {
+    height: 4700px;
+  }
+  }
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .work_one {
+    height: 4950px;
+  }
+  }
