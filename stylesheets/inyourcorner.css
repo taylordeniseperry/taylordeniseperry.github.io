@@ -6,6 +6,86 @@ body {
 
 /*Work*/
 
+.hover_one {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 585px;
+  display: none;
+}
+
+.hover_two {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 585px;
+  display: none;
+}
+
+.hover_three {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 673px;
+  display: none;
+}
+
+.hover_four {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 673px;
+  display: none;
+}
+
+.hover_five {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 436px;
+  display: none;
+}
+
+.hover_six {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 436px;
+  display: none;
+}
+
+.hover_seven {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 1371px;
+  display: none;
+}
+
+.hover_eight {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 1371px;
+  display: none;
+}
+
+.hover_text, .hover_text_two, .hover_text_three, .hover_text_four, .hover_text_five, .hover_text_six, .hover_text_seven, .hover_text_eight {
+  font-family: 'Lato', sans-serif;
+  color: #EDC9AF;
+  margin: 100px auto 0px auto;
+  width: 75%;
+  font-weight: 300;
+}
+
 .work_one {
   margin-top: 25px;
   height: 3700px;
@@ -65,6 +145,12 @@ a, a:hover {
   text-align: center;
 }
 
+img {
+  animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari and Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
 
 
 /*Footer*/
@@ -76,6 +162,10 @@ a, a:hover {
   height: 80px;
   padding-top: 20px;
   text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 .navbar-fixed-bottom p {
