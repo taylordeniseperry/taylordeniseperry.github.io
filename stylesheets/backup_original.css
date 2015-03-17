@@ -7,76 +7,41 @@ body {
 .navbar-fixed-top {
   background-color: black;
   color: white;
-  height: 86px;
-  text-align: right;
-  z-index: 1;
+  height: 120px;
+  text-align: center;
 }
 
 .logo {
-  height: 70px;
+  height: 147px;
   padding-top: 15px;
-  width: 105px;
+  width: 233px;
 }
 
 /*Body Thumbnails*/
 
-.my_work {
-  height: 750px;
-  width: 1100px;
-  margin: auto;
-  text-align: center;
+.gallery {
+  width: 1115px;
+  margin: 200px auto 0px auto;
 }
 
-.modal-header {
+.thumb {
+    margin-bottom: 30px;
+    animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari and Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
+
+.img-responsive {
+  height: 200px;
+  width: 200px;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 200px;
   background-color: black;
-  border: none;
-}
-
-.nav-tabs>li.active>a {
-  background-color: black;
-}
-
-.btn {
-  margin-top: 50px;
-  background-color: black;
-}
-
-.btn:hover {
-  border-bottom: 1px solid #EDC9AF;
-}
-
-.col-lg-3 {
-  margin-top: 60px;
-}
-
-.nav-tabs {
-  background-color: black;
-}
-
-.modal-dialog {
-    width: 75%;
-    margin: auto;
-  }
-
-.modal-content {
-  background-color: rgba(255,255,255,0);
-  border: 1px solid rgba(255,255,255,0);
-  margin-top: 30px;
-}
-
-.modal .modal-body {
-    max-height: 700px;
-    overflow-y: auto;
-}
-
-.close {
-  color: #EDC9AF;
-}
-
-h3 {
-  color: #EDC9AF;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  border: 1px solid #EDC9AF;
 }
 
 /*Footer*/
@@ -88,7 +53,6 @@ h3 {
   height: 80px;
   padding-top: 20px;
   text-align: center;
-  z-index: 1;
 }
 
 .navbar-fixed-bottom p {
