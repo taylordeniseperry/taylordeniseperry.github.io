@@ -4,6 +4,11 @@ body {
 
 /*Header*/
 
+a, a:hover {
+  color: #EDC9AF;
+  text-decoration: none;
+}
+
 /*Work*/
 
 h2 {
@@ -15,6 +20,7 @@ h2 {
 
 .work_one {
   margin-top: 25px;
+  height: 900px;
 }
 
 h1 {
@@ -23,10 +29,38 @@ h1 {
   font-size: 1.3em;
 }
 
+img {
+  animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari and Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
+
 
 /*Footer*/
 
+.navbar-fixed-bottom {
+  color: #EDC9AF;
+  background-color: black;
+  border-top: 1px solid #EDC9AF;
+  height: 80px;
+  padding-top: 20px;
+  text-align: center;
+  z-index: 1;
+}
 
+.navbar-fixed-bottom p {
+  color: #EDC9AF;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .nav a {
+  background-color: black;
+  color: #EDC9AF;
+}
 
 /*Keyframes*/
 

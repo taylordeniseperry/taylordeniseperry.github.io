@@ -2,13 +2,12 @@ body {
   background-color: black;
 }
 
-.work_three {
-  margin-top: 25px;
-  height: 1000px;
-}
-
 span {
   font-size: .7em;
+}
+
+.work_one {
+  margin: auto;
 }
 
 a, a:hover {
@@ -23,32 +22,9 @@ a, a:hover {
   margin-bottom: 20px;
 }
 
-.summary {
-  background-color: black;
-  border: 1px solid #EDC9AF;
-  color: #EDC9AF;
-  font-family: 'Cinzel', serif;
-  margin: 5px 0px 20px 0px;
+.col-lg-6 {
+  margin-top: 100px;
 }
-
-.summary_text {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #EDC9AF;
-  font-size: 1.05em;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.writing {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  color: #EDC9AF;
-  font-size: 1em;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 
 /*Footer*/
 
@@ -59,6 +35,7 @@ a, a:hover {
   height: 80px;
   padding-top: 20px;
   text-align: center;
+  z-index: 1;
 }
 
 .navbar-fixed-bottom p {
@@ -73,6 +50,7 @@ a, a:hover {
   background-color: black;
   color: #EDC9AF;
 }
+
 
 /*Keyframes*/
 
