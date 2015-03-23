@@ -1,45 +1,1066 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
-.image_header {
-  display: block;
+/*What I Can Do*/
+
+.about {
+  background-color: white;
 }
 
-.flower_header {
-  width: 100%;
+.section-heading {
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 2em;
+  font-family: 'Lato' , sans-serif;
+  font-weight: 100;
 }
 
-.image_full {
-  padding: 0px;
+.section-subheading {
+  color: black;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
-.over {
+
+/*NavBar*/
+#dot-nav{
+  right: 10px;
+  top: 50%;
+  margin-top: -50px;
+  height: 100px;
+  z-index: 999;
+}
+
+#dot-nav ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+#dot-nav li {
+  position: relative;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  padding: 5px;
+  height: 10px;
+  margin: 10px 10px 0px 0px;
+  width: 10px;
+  vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+
+}
+
+#dot-nav a {
+  outline: 0;
+  vertical-align:top;
+  margin: 0px 0px 0px 25px;
+  position: relative;
+  top:-5px;
+}
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid white;
+}
+
+
+
+
+/*Education*/ /*Education*/ /*Education*/
+
+.effect {
+  background-color: white;
+}
+
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+
+.one, .three, .five {
+  text-align: right;
+}
+
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #303e49;
+}
+header h1 {
+  color: white;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+@media only screen and (min-width: 1170px) {
+  header {
+    height: 300px;
+    line-height: 300px;
+  }
+  header h1 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 1px;
+  background: #ff3232; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff3232 0%, #ef992f 16%, #efef26 33%, #66e825 49%, #2989d8 65%, #a026f2 82%, #ea7ede 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#ef992f), color-stop(33%,#efef26), color-stop(49%,#66e825), color-stop(65%,#2989d8), color-stop(82%,#a026f2), color-stop(99%,#ea7ede)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* IE10+ */
+background: linear-gradient(to bottom,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#ea7ede',GradientType=0 ); /* IE6-9 */
+
+}
+@media only screen and (min-width: 1170px) {
+  #cd-timeline {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+.cd-timeline-content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-align: left;
+
+  }
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-block {
+    margin: 4em 0;
+  }
+  .cd-timeline-block:first-child {
+    margin-top: 0;
+  }
+  .cd-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cd-timeline-img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.2);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cd-timeline-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.cd-timeline-img.cd-picture {
+  background: white;
+  border: 1px solid black
+}
+.cd-timeline-img.cd-movie {
+  background: white;
+  border: 1px solid black;
+}
+.cd-timeline-img.cd-location {
+  background: white;
+  border: 1px solid black;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-img {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+  .cssanimations .cd-timeline-img.is-hidden {
+    visibility: hidden;
+  }
+  .cssanimations .cd-timeline-img.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-1 0.6s;
+    -moz-animation: cd-bounce-1 0.6s;
+    animation: cd-bounce-1 0.6s;
+  }
+}
+
+@-webkit-keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: scale(1.2);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@keyframes cd-bounce-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.cd-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0.25em;
+  padding: 1em;
+}
+.cd-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-timeline-content h2 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+.cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  display: inline-block;
+}
+.cd-timeline-content p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.cd-timeline-content .cd-read-more {
+  float: right;
+  padding: .8em 1em;
+  background: #acb7c0;
+  color: white;
+  border-radius: 0.25em;
+}
+.no-touch .cd-timeline-content .cd-read-more:hover {
+  background-color: #bac4cb;
+}
+.cd-timeline-content .cd-date {
+  float: left;
+  padding: .8em 0;
+  opacity: .7;
+}
+.cd-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid white;
+}
+@media only screen and (min-width: 768px) {
+  .cd-timeline-content h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  .cd-timeline-content p {
+    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .cd-timeline-content h2 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col-lg-12 > .portfolio_header {
+    font-size: 1.5em;
+    width: 365px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-content {
+    margin-left: 0;
+    padding: 1.6em;
+    width: 45%;
+  }
+  .cd-timeline-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+  }
+  .cd-timeline-content .cd-read-more {
+    float: left;
+  }
+  .cd-timeline-content .cd-date {
+    position: absolute;
+    width: 100%;
+    left: 122%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content {
+    float: right;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: white;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+    float: right;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+    left: auto;
+    right: 122%;
+    text-align: right;
+  }
+  .cssanimations .cd-timeline-content.is-hidden {
+    visibility: hidden;
+  }
+  .cssanimations .cd-timeline-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2 0.6s;
+    -moz-animation: cd-bounce-2 0.6s;
+    animation: cd-bounce-2 0.6s;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  /* inverse bounce effect on even content blocks */
+  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+@-webkit-keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100px);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(20px);
+  }
+
+  100% {
+    -moz-transform: translateX(0);
+  }
+}
+@keyframes cd-bounce-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+@-moz-keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100px);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: translateX(-20px);
+  }
+
+  100% {
+    -moz-transform: translateX(0);
+  }
+}
+@keyframes cd-bounce-2-inverse {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+
+/*Portfolio*/
+
+.can_do {
+  font-size: 5em;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.portfolio {
+  background-color: white;
+  padding-bottom: 200px;
+}
+
+.portfolio_header {
+  color: black;
+  margin: 70px auto 0px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 700px;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
   text-align: center;
 }
 
-.text_top {
+.portfolio_paragraph {
+  color: black;
+  margin-top: 20px;
+  font-size: 2em;
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: white;
-  font-size: 8em;
-  margin-top: 80px;
-  margin-bottom: 370px;
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
+  font-weight: 200;
+  text-align: center;
 }
 
-.text_bottom {
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  width: 200px;
+  height: 200px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  box-shadow: inset 0 0 0 0 rgba(255,255,255,0.5);
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+
+.box1:hover {
+  box-shadow: inset 0 -300px 0 0 red;
+}
+
+.box2:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(255,145,0);
+}
+
+.box3:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(65,255,0);
+}
+
+.box4:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(0,207,255);
+}
+
+.box5:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(161,0,255);
+}
+
+.box6:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(255,105,180);
+}
+
+.inyourcorner_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  color: white;
-  font-size: 8em;
-  margin-top: 80px;
-  border-top: 1px solid white;
-  padding-bottom: 15px;
+  color: red;
+  position: absolute;
+  bottom: 0;
 }
+
+.graphicdesign_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(255,145,0);
+  position: absolute;
+  bottom: 0;
+}
+
+.a1_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(65,255,0);
+  position: absolute;
+  bottom: 0;
+}
+
+.a1 {
+  margin: auto;
+}
+
+.mensa_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(0,207,255);
+  position: absolute;
+  bottom: 0;
+}
+
+.tdp_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(161,0,255);
+  position: absolute;
+  bottom: 0;
+}
+
+.responsive {
+  margin: auto;
+}
+
+.other_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(255,105,180);
+  position: absolute;
+  bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+/*Modal*/
+
+.modal-backdrop.in {
+  opacity: 1;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+  width: 100%;
+}
+
+.modal-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: white;
+  height: 80px;
+}
+
+.modal-dialog {
+  margin-top: 0px;
+}
+
+.modal-content {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.graphic {
+  margin-top: 200px;
+}
+
+.mensa {
+  margin-top: 200px;
+}
+
+.close {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  margin-right: 15px;
+  opacity: 1;
+}
+
+/*Contact*/
+
+.contact {
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.contact_header {
+  color: black;
+  margin-top: 20px;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.twitter {
+  height: 350px;
+  width: 350px;
+  margin: 50px auto;
+}
+
+.twitter_name {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.cover_twitter {
+  position: absolute;
+  height: 180px;
+  width: 350px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.cover_twitter p, .cover_email p, .cover_linked p {
+  font-size: 1.7em;
+}
+
+.email {
+  height: 350px;
+  width: 350px;
+  margin: 50px auto;
+}
+
+.email_name {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.cover_email {
+  position: absolute;
+  height: 180px;
+  width: 350px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.linked {
+  height: 350px;
+  width: 350px;
+  margin: 50px auto;
+}
+
+.linked_name {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.cover_linked {
+  position: absolute;
+  height: 180px;
+  width: 350px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 50%;
+}
+
+
+/*Twitter*/
+
+.thumb {
+  width: 350px; height: 350px;
+  perspective: 1000px;
+}
+.thumb a {
+  display: block; width: 100%; height: 100%;
+  /*double layered BG for lighting effect*/
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/twitter.png");
+  /*disabling the translucent black bg on the main image*/
+  background-size: 0, cover;
+  /*3d space for children*/
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+.thumb:hover a {transform: rotateX(80deg); transform-origin: bottom;}
+/*bottom surface */
+.thumb a:after {
+  /*36px high element positioned at the bottom of the image*/
+  content: ''; left: 0; bottom: 0;
+  width: 100%; height: 36px;
+  /*inherit the main BG*/
+  background: inherit; background-size: cover, cover;
+  /*draw the BG bottom up*/
+  background-position: bottom;
+  /*rotate the surface 90deg on the bottom axis*/
+  transform: rotateX(90deg); transform-origin: bottom;
+}
+/*label style*/
+.thumb a span {
+  color: white; text-transform: uppercase;
+  position: absolute; top: 100%; left: 0; width: 100%;
+  font: bold 12px/36px Montserrat; text-align: center;
+  /*the rotation is a bit less than the bottom surface to avoid flickering*/
+  transform: rotateX(-89.99deg); transform-origin: top;
+  z-index: 1;
+}
+/*shadow*/
+.thumb a:before {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  /*by default the shadow will be almost flat, very transparent, scaled down, and */
+  opacity: 0.15;
+  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+  transform-origin: bottom;
+}
+.thumb:hover a:before {
+  opacity: 1;
+  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+  /*pushing the shadow down and scaling it down to size*/
+  transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+/*Email*/
+
+.thumb1 {
+  width: 350px; height: 350px;
+  perspective: 1000px;
+}
+.thumb1 a {
+  display: block; width: 100%; height: 100%;
+  /*double layered BG for lighting effect*/
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/email.png");
+  /*disabling the translucent black bg on the main image*/
+  background-size: 0, cover;
+  /*3d space for children*/
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+.thumb1:hover a {transform: rotateX(80deg); transform-origin: bottom;}
+/*bottom surface */
+.thumb1 a:after {
+  /*36px high element positioned at the bottom of the image*/
+  content: ''; left: 0; bottom: 0;
+  width: 100%; height: 36px;
+  /*inherit the main BG*/
+  background: inherit; background-size: cover, cover;
+  /*draw the BG bottom up*/
+  background-position: bottom;
+  /*rotate the surface 90deg on the bottom axis*/
+  transform: rotateX(90deg); transform-origin: bottom;
+}
+/*label style*/
+.thumb1 a span {
+  color: white; text-transform: uppercase;
+  position: absolute; top: 100%; left: 0; width: 100%;
+  font: bold 12px/36px Montserrat; text-align: center;
+  /*the rotation is a bit less than the bottom surface to avoid flickering*/
+  transform: rotateX(-89.99deg); transform-origin: top;
+  z-index: 1;
+}
+/*shadow*/
+.thumb1 a:before {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  /*by default the shadow will be almost flat, very transparent, scaled down, and */
+  opacity: 0.15;
+  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+  transform-origin: bottom;
+}
+.thumb1:hover a:before {
+  opacity: 1;
+  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+  /*pushing the shadow down and scaling it down to size*/
+  transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+/*LinkedIn*/
+
+.thumb2 {
+  width: 350px; height: 350px;
+  perspective: 1000px;
+}
+.thumb2 a {
+  display: block; width: 100%; height: 100%;
+  /*double layered BG for lighting effect*/
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/linked.png");
+  /*disabling the translucent black bg on the main image*/
+  background-size: 0, cover;
+  /*3d space for children*/
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+}
+.thumb2:hover a {transform: rotateX(80deg); transform-origin: bottom;}
+/*bottom surface */
+.thumb2 a:after {
+  /*36px high element positioned at the bottom of the image*/
+  content: ''; left: 0; bottom: 0;
+  width: 100%; height: 36px;
+  /*inherit the main BG*/
+  background: inherit; background-size: cover, cover;
+  /*draw the BG bottom up*/
+  background-position: bottom;
+  /*rotate the surface 90deg on the bottom axis*/
+  transform: rotateX(90deg); transform-origin: bottom;
+}
+/*label style*/
+.thumb2 a span {
+  color: white; text-transform: uppercase;
+  position: absolute; top: 100%; left: 0; width: 100%;
+  font: bold 12px/36px Montserrat; text-align: center;
+  /*the rotation is a bit less than the bottom surface to avoid flickering*/
+  transform: rotateX(-89.99deg); transform-origin: top;
+  z-index: 1;
+}
+/*shadow*/
+.thumb2 a:before {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  /*by default the shadow will be almost flat, very transparent, scaled down, and */
+  opacity: 0.15;
+  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+  transform-origin: bottom;
+}
+.thumb2:hover a:before {
+  opacity: 1;
+  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+  /*pushing the shadow down and scaling it down to size*/
+  transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+/*Thank You*/
+
+.thanks {
+  background-color: black;
+  text-align: center;
+  padding: 75px 0px;
+}
+
+.thankyou {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.hands {
+  animation-delay:1s;
+  -moz-animation-delay:1s;
+  -webkit-animation-delay:1s;
+  animation: infinite;
+  -moz-animation: infinite;
+  -webkit-animation: infinite; }
