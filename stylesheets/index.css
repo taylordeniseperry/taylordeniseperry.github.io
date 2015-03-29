@@ -83,7 +83,7 @@ body {
 
 
 
-/*Education*/ /*Education*/ /*Education*/
+/*Education*/ /*Education*/ /*Education*/ /*Education*/ /*Education*/
 
 .effect {
   background-color: white;
@@ -313,6 +313,235 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
     transform: scale(1);
   }
 }
+
+/*Spotlight Project*/ /*Spotlight Project*/ /*Spotlight Project*/
+
+.spotlight_header {
+  color: black;
+  margin: 70px auto 0px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 700px;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 58px;
+}
+
+.wireframe {
+  margin-top: 50px;
+}
+
+
+/*Portfolio*/ /*Portfolio*/ /*Portfolio*/ /*Portfolio*/ /*Portfolio*/
+
+.can_do {
+  font-size: 5em;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.portfolio {
+  background-color: white;
+  padding-bottom: 200px;
+}
+
+.portfolio_header {
+  color: black;
+  margin: 0px auto 0px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 700px;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.portfolio_paragraph {
+  color: black;
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  width: 200px;
+  height: 200px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  box-shadow: inset 0 0 0 0 rgba(255,255,255,0.5);
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+
+.box1:hover {
+  box-shadow: inset 0 -300px 0 0 red;
+}
+
+.box2:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(255,145,0);
+}
+
+.box3:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(65,255,0);
+}
+
+.box4:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(0,207,255);
+}
+
+.box5:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(161,0,255);
+}
+
+.box6:hover {
+  box-shadow: inset 0 -300px 0 0 rgb(255,105,180);
+}
+
+.inyourcorner_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: red;
+  position: absolute;
+  bottom: 0;
+}
+
+.graphicdesign_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(255,145,0);
+  position: absolute;
+  bottom: 0;
+}
+
+.a1_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(65,255,0);
+  position: absolute;
+  bottom: 0;
+}
+
+.a1 {
+  margin: auto;
+}
+
+.mensa_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(0,207,255);
+  position: absolute;
+  bottom: 0;
+}
+
+.tdp_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(161,0,255);
+  position: absolute;
+  bottom: 0;
+}
+
+.responsive {
+  margin: auto;
+}
+
+.other_title {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: rgb(255,105,180);
+  position: absolute;
+  bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+/*Modal*/
+
+.modal-backdrop.in {
+  opacity: 1;
+  background-color: rgba(255,255,255,1);
+}
+
+.modal-dialog {
+  width: 100%;
+}
+
+.modal-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: white;
+  height: 80px;
+}
+
+.modal-dialog {
+  margin-top: 0px;
+}
+
+.modal-content {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.graphic {
+  margin-top: 200px;
+}
+
+.mensa {
+  margin-top: 200px;
+}
+
+.close {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  margin-right: 15px;
+  opacity: 1;
+}
+
+/*Journey*/ /*Journey*/ /*Journey*/ /*Journey*/ /*Journey*/ /*Journey*/
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -396,6 +625,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
     font-size: 1.5em;
     width: 365px;
     padding-top: 10px;
+  }
+
+  .col-lg-12 > .spotlight_header {
+    font-size: 1.5em;
+    width: 365px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .can_do {
+    font-size: 2em;
+  }
+
+  .col-lg-12 > .contact_header {
+    font-size: 2.2em;
   }
 }
 
@@ -575,212 +819,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', end
 }
 
 
-/*Portfolio*/
 
-.can_do {
-  font-size: 5em;
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-}
-
-.portfolio {
-  background-color: white;
-  padding-bottom: 200px;
-}
-
-.portfolio_header {
-  color: black;
-  margin: 70px auto 0px auto;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  height: 50px;
-  width: 700px;
-  font-size: 3em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  text-align: center;
-}
-
-.portfolio_paragraph {
-  color: black;
-  margin-top: 20px;
-  font-size: 2em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  text-align: center;
-}
-
-.box1, .box2, .box3, .box4, .box5, .box6 {
-  width: 200px;
-  height: 200px;
-  border-bottom: 1px solid black;
-  margin: auto;
-  margin-bottom: 5px;
-  margin-top: 30px;
-  box-shadow: inset 0 0 0 0 rgba(255,255,255,0.5);
-  -webkit-transition: all ease 0.8s;
-  -moz-transition: all ease 0.8s;
-  transition: all ease 0.8s;
-}
-
-.box1:hover {
-  box-shadow: inset 0 -300px 0 0 red;
-}
-
-.box2:hover {
-  box-shadow: inset 0 -300px 0 0 rgb(255,145,0);
-}
-
-.box3:hover {
-  box-shadow: inset 0 -300px 0 0 rgb(65,255,0);
-}
-
-.box4:hover {
-  box-shadow: inset 0 -300px 0 0 rgb(0,207,255);
-}
-
-.box5:hover {
-  box-shadow: inset 0 -300px 0 0 rgb(161,0,255);
-}
-
-.box6:hover {
-  box-shadow: inset 0 -300px 0 0 rgb(255,105,180);
-}
-
-.inyourcorner_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: red;
-  position: absolute;
-  bottom: 0;
-}
-
-.graphicdesign_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: rgb(255,145,0);
-  position: absolute;
-  bottom: 0;
-}
-
-.a1_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: rgb(65,255,0);
-  position: absolute;
-  bottom: 0;
-}
-
-.a1 {
-  margin: auto;
-}
-
-.mensa_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: rgb(0,207,255);
-  position: absolute;
-  bottom: 0;
-}
-
-.tdp_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: rgb(161,0,255);
-  position: absolute;
-  bottom: 0;
-}
-
-.responsive {
-  margin: auto;
-}
-
-.other_title {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  font-size: 2.5em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  color: rgb(255,105,180);
-  position: absolute;
-  bottom: 0;
-}
-
-a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-a {
-  color: black;
-}
-
-/*Modal*/
-
-.modal-backdrop.in {
-  opacity: 1;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.modal-dialog {
-  width: 100%;
-}
-
-.modal-title {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-size: 1.5em;
-  margin-top: 10px;
-}
-
-.modal-header {
-  border-bottom: none;
-  background-color: white;
-  height: 80px;
-}
-
-.modal-dialog {
-  margin-top: 0px;
-}
-
-.modal-content {
-  background-color: rgba(0,0,0,0.5);
-}
-
-.graphic {
-  margin-top: 200px;
-}
-
-.mensa {
-  margin-top: 200px;
-}
-
-.close {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: 2em;
-  font-weight: 100;
-  margin-right: 15px;
-  opacity: 1;
-}
-
-/*Contact*/
+/*Contact*/ /*Contact*/ /*Contact*/ /*Contact*/ /*Contact*/ /*Contact*/
 
 .contact {
   padding-bottom: 40px;
@@ -797,8 +837,8 @@ a {
 }
 
 .twitter {
-  height: 350px;
-  width: 350px;
+  height: 150px;
+  width: 200px;
   margin: 50px auto;
 }
 
@@ -806,25 +846,15 @@ a {
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-}
-
-.cover_twitter {
-  position: absolute;
-  height: 180px;
-  width: 350px;
-  top: 0;
-  left: 0;
   text-align: center;
-  margin-top: 50%;
+  font-size: 1.5em;
+  margin-top: 39%;
 }
 
-.cover_twitter p, .cover_email p, .cover_linked p {
-  font-size: 1.7em;
-}
 
 .email {
-  height: 350px;
-  width: 350px;
+  height: 150px;
+  width: 318px;
   margin: 50px auto;
 }
 
@@ -832,21 +862,14 @@ a {
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-}
-
-.cover_email {
-  position: absolute;
-  height: 180px;
-  width: 350px;
-  top: 0;
-  left: 0;
   text-align: center;
-  margin-top: 50%;
+  font-size: 1.5em;
+  margin-top: 25%;
 }
 
 .linked {
-  height: 350px;
-  width: 350px;
+  height: 150px;
+  width: 318px;
   margin: 50px auto;
 }
 
@@ -854,198 +877,20 @@ a {
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 25%;
 }
 
-.cover_linked {
-  position: absolute;
-  height: 180px;
-  width: 350px;
-  top: 0;
-  left: 0;
-  text-align: center;
-  margin-top: 50%;
-}
 
 
 /*Twitter*/
 
-.thumb {
-  width: 350px; height: 350px;
-  perspective: 1000px;
-}
-.thumb a {
-  display: block; width: 100%; height: 100%;
-  /*double layered BG for lighting effect*/
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/twitter.png");
-  /*disabling the translucent black bg on the main image*/
-  background-size: 0, cover;
-  /*3d space for children*/
-  transform-style: preserve-3d;
-  transition: all 0.5s;
-}
-.thumb:hover a {transform: rotateX(80deg); transform-origin: bottom;}
-/*bottom surface */
-.thumb a:after {
-  /*36px high element positioned at the bottom of the image*/
-  content: ''; left: 0; bottom: 0;
-  width: 100%; height: 36px;
-  /*inherit the main BG*/
-  background: inherit; background-size: cover, cover;
-  /*draw the BG bottom up*/
-  background-position: bottom;
-  /*rotate the surface 90deg on the bottom axis*/
-  transform: rotateX(90deg); transform-origin: bottom;
-}
-/*label style*/
-.thumb a span {
-  color: white; text-transform: uppercase;
-  position: absolute; top: 100%; left: 0; width: 100%;
-  font: bold 12px/36px Montserrat; text-align: center;
-  /*the rotation is a bit less than the bottom surface to avoid flickering*/
-  transform: rotateX(-89.99deg); transform-origin: top;
-  z-index: 1;
-}
-/*shadow*/
-.thumb a:before {
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s;
-  /*by default the shadow will be almost flat, very transparent, scaled down, and */
-  opacity: 0.15;
-  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-  transform-origin: bottom;
-}
-.thumb:hover a:before {
-  opacity: 1;
-  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
-  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
-  /*pushing the shadow down and scaling it down to size*/
-  transform: rotateX(0) translateZ(-60px) scale(0.85);
-}
+
 
 /*Email*/
 
-.thumb1 {
-  width: 350px; height: 350px;
-  perspective: 1000px;
-}
-.thumb1 a {
-  display: block; width: 100%; height: 100%;
-  /*double layered BG for lighting effect*/
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/email.png");
-  /*disabling the translucent black bg on the main image*/
-  background-size: 0, cover;
-  /*3d space for children*/
-  transform-style: preserve-3d;
-  transition: all 0.5s;
-}
-.thumb1:hover a {transform: rotateX(80deg); transform-origin: bottom;}
-/*bottom surface */
-.thumb1 a:after {
-  /*36px high element positioned at the bottom of the image*/
-  content: ''; left: 0; bottom: 0;
-  width: 100%; height: 36px;
-  /*inherit the main BG*/
-  background: inherit; background-size: cover, cover;
-  /*draw the BG bottom up*/
-  background-position: bottom;
-  /*rotate the surface 90deg on the bottom axis*/
-  transform: rotateX(90deg); transform-origin: bottom;
-}
-/*label style*/
-.thumb1 a span {
-  color: white; text-transform: uppercase;
-  position: absolute; top: 100%; left: 0; width: 100%;
-  font: bold 12px/36px Montserrat; text-align: center;
-  /*the rotation is a bit less than the bottom surface to avoid flickering*/
-  transform: rotateX(-89.99deg); transform-origin: top;
-  z-index: 1;
-}
-/*shadow*/
-.thumb1 a:before {
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s;
-  /*by default the shadow will be almost flat, very transparent, scaled down, and */
-  opacity: 0.15;
-  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-  transform-origin: bottom;
-}
-.thumb1:hover a:before {
-  opacity: 1;
-  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
-  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
-  /*pushing the shadow down and scaling it down to size*/
-  transform: rotateX(0) translateZ(-60px) scale(0.85);
-}
 
-/*LinkedIn*/
-
-.thumb2 {
-  width: 350px; height: 350px;
-  perspective: 1000px;
-}
-.thumb2 a {
-  display: block; width: 100%; height: 100%;
-  /*double layered BG for lighting effect*/
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/linked.png");
-  /*disabling the translucent black bg on the main image*/
-  background-size: 0, cover;
-  /*3d space for children*/
-  transform-style: preserve-3d;
-  transition: all 0.5s;
-}
-.thumb2:hover a {transform: rotateX(80deg); transform-origin: bottom;}
-/*bottom surface */
-.thumb2 a:after {
-  /*36px high element positioned at the bottom of the image*/
-  content: ''; left: 0; bottom: 0;
-  width: 100%; height: 36px;
-  /*inherit the main BG*/
-  background: inherit; background-size: cover, cover;
-  /*draw the BG bottom up*/
-  background-position: bottom;
-  /*rotate the surface 90deg on the bottom axis*/
-  transform: rotateX(90deg); transform-origin: bottom;
-}
-/*label style*/
-.thumb2 a span {
-  color: white; text-transform: uppercase;
-  position: absolute; top: 100%; left: 0; width: 100%;
-  font: bold 12px/36px Montserrat; text-align: center;
-  /*the rotation is a bit less than the bottom surface to avoid flickering*/
-  transform: rotateX(-89.99deg); transform-origin: top;
-  z-index: 1;
-}
-/*shadow*/
-.thumb2 a:before {
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s;
-  /*by default the shadow will be almost flat, very transparent, scaled down, and */
-  opacity: 0.15;
-  transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-  transform-origin: bottom;
-}
-.thumb2:hover a:before {
-  opacity: 1;
-  /*blurred effect using box shadow as filter: blur is not supported in all browsers*/
-  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
-  /*pushing the shadow down and scaling it down to size*/
-  transform: rotateX(0) translateZ(-60px) scale(0.85);
-}
 
 /*Thank You*/
 
@@ -1061,11 +906,3 @@ a {
   font-weight: 100;
   font-size: 3em;
 }
-
-.hands {
-  animation-delay:1s;
-  -moz-animation-delay:1s;
-  -webkit-animation-delay:1s;
-  animation: infinite;
-  -moz-animation: infinite;
-  -webkit-animation: infinite; }
