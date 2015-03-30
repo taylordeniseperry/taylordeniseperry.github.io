@@ -117,7 +117,7 @@ $('.awesome-tooltip').tooltip({
 });
 
     $(".email_header").click(function(){
-    $(".email_header").html("<a target='_blank' href='https://www.linkedin.com/profile/view?id=386302466&trk=nav_responsive_tab_profile_pic'>taylordeniseperry@gmail.com</a>");
+    $(".email_header").html("<a target='_blank' href='mailto:taylordeniseperry@gmail.com'>taylordeniseperry@gmail.com</a>");
 });
 
     $(".linkedin_header").click(function(){

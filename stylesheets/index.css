@@ -491,6 +491,18 @@ a {
   color: black;
 }
 
+.slider_img {
+  margin: auto;
+}
+
+.carousel-inner {
+  margin-bottom: 25px;
+}
+
+.modal-body {
+  background-color: white;
+}
+
 /*Modal*/
 
 .modal-backdrop.in {
