@@ -1,43 +1,19 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
-    console.log('yay this script loaded');
-    $('.addToCart').on('click', function(){
-        $(this).parent().appendTo('#bookCart');
-    });
+jQuery(document).ready(function($){
+	var $timeline_block = $('.cd-timeline-block');
+
+	//hide timeline blocks which are outside the viewport
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+
+	//on scolling, show/animate timeline blocks when enter the viewport
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
 });
-
-// var addToCart = $('#addToCart'),
-//     bookStore = $('#bookStore'),
-//     books = bookStore.children(),
-//     bookCart = $('#bookCart'),
-//     booksInCart = bookCart.children();
-
-// function addBookToCart () {
-// 	var book = $(this)[0],
-// 		className = book.innerText.split(' ').join('-'),
-//         bookTemplate = '<li class="' + className + '">' + book.innerText + '</li>';
-
-//     //check if bookCart children have class
-//     console.log(bookCart.children('.'+className));
-//     if(bookCart.children('.'+className)) {
-//     	// bookCart.children('.'+className) 	
-//     } else {
-// 	    $(bookTemplate).appendTo(bookCart);
-// 	    bookCart.children('.'+className).on("click", removeFromCart);
-//     }
-// }
-
-// function removeFromCart () {
-// 	var response = confirm("Are you sure you want to remove this book?");
-// 	if(response === true) {
-// 		$(this).remove();
-// 	}
-// }
-
-// books.on("click", addBookToCart);
-
-// booksInCart.on("click", removeFromCart);
-
-// when add to cart button is clicked
-// select the entire product div and appendTo cart
-// when remove button is clicked removeFromCart
