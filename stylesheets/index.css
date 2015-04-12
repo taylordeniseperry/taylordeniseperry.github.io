@@ -149,13 +149,7 @@ header h1 {
   height: 100%;
   width: 1px;
   background: #ff3232; /* Old browsers */
-background: -moz-linear-gradient(top,  #ff3232 0%, #ef992f 16%, #efef26 33%, #66e825 49%, #2989d8 65%, #a026f2 82%, #ea7ede 99%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(16%,#ef992f), color-stop(33%,#efef26), color-stop(49%,#66e825), color-stop(65%,#2989d8), color-stop(82%,#a026f2), color-stop(99%,#ea7ede)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* IE10+ */
-background: linear-gradient(to bottom,  #ff3232 0%,#ef992f 16%,#efef26 33%,#66e825 49%,#2989d8 65%,#a026f2 82%,#ea7ede 99%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#ea7ede',GradientType=0 ); /* IE6-9 */
+background: black;
 
 }
 @media only screen and (min-width: 1170px) {
@@ -891,12 +885,12 @@ a {
 .thanks {
   background-color: black;
   text-align: center;
-  padding: 75px 0px;
+  padding: 20px 0px;
 }
 
 .thankyou {
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2em;
 }
