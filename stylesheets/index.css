@@ -847,7 +847,7 @@ a {
   text-align: center;
 }
 
-.twitter_header, .email_header, .linkedin_header {
+.twitter_header, .email_header, .linkedin_header, .resume_header {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   text-align: center;

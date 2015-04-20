@@ -70,4 +70,10 @@ $('.awesome-tooltip').tooltip({
     $(".linkedin_header").html("<a target='_blank' href='http://google.com'>Taylor Denise Perry</a>");
 });
 
+    $(".resume_header").click(function(){
+    $(".resume_header").html("<a target='_blank' href='images/Taylor_Resume.pdf'>Click here to view!</a>");
+});
+
+
+
 });
