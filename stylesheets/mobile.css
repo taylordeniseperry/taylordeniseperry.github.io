@@ -31,28 +31,13 @@
 .title2 {
   font-family: 'Lato', sans-serif;
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: center;
-}
-
-.title3 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  font-size: 2em;
-  text-align: center;
-}
-
-.title4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  font-size: 4em;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 .iframe {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .yelp {
