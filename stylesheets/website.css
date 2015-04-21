@@ -5,6 +5,13 @@
   margin: auto;
 }
 
+.window1 {
+  height: 500px;
+  overflow: auto;
+  margin: auto;
+  border: 1px solid gray;
+}
+
 .title11 {
   margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
