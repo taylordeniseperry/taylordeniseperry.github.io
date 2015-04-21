@@ -67,7 +67,7 @@ $('.awesome-tooltip').tooltip({
 });
 
     $(".linkedin_header").click(function(){
-    $(".linkedin_header").html("<a target='_blank' href='http://google.com'>Taylor Denise Perry</a>");
+    $(".linkedin_header").html("<a target='_blank' href='https://www.linkedin.com/pub/taylor-denise-perry/a9/456/802'>Taylor Perry</a>");
 });
 
     $(".resume_header").click(function(){
