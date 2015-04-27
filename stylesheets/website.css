@@ -16,6 +16,13 @@
   border: 1px solid gray;
 }
 
+.window3 {
+  height: 600px;
+  overflow: auto;
+  margin: auto;
+}
+
+
 .title11 {
   margin-bottom: 20px;
   font-family: 'Lato', sans-serif;
