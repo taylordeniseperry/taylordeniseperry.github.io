@@ -14,7 +14,7 @@ $( document ).ready(function() {
     }
 
   $(".LinkedIn").click(function(){
-    $(".LinkedIn").html("<a target='_blank' href='https://www.linkedin.com/pub/taylor-denise-perry/a9/456/802'>@taydeniseperry</a>");
+    $(".LinkedIn").html("<a target='_blank' href='https://www.linkedin.com/pub/taylor-denise-perry/a9/456/802'>Taylor Denise Perry</a>");
 });
 
     $(".Email").click(function(){
