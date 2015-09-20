@@ -1,0 +1,29 @@
+@media screen and (max-width: 992px) {
+  .abouttitle {
+    margin-top: 50px;
+  }
+
+  .sharetitle {
+    margin-top: 50px;
+  }
+
+  .form-control {
+    width: 50px;
+  }
+
+  .form {
+    width: 275px;
+  }
+
+  .form2 {
+    width: 280px;
+  }
+
+  .user {
+    margin-top: 50px;
+  }
+
+  .line-separator2 {
+    margin-top: 90px;
+  }
+}

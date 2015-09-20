@@ -1,0 +1,356 @@
+#brand-image {
+	height: 50px;
+	width: 134px;
+}
+
+.navbar-default .navbar-nav>li>a {
+padding-top: 26px;
+color: #a665a6;
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 20px;
+}
+
+.container-fluid>.navbar-header {
+	height: 70px;
+}
+
+.navbar-default .navbar-toggle {
+margin-top: 20px;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: #ffffff;
+  box-shadow: none;
+  border-bottom-color: #a665a6;
+  margin-bottom: 0px;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.video {
+  margin-top: 100px;
+}
+
+.welcome {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 140px;
+}
+
+.img-responsive {
+  margin: auto;
+}
+
+.percent {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 5px;
+}
+
+.sharecol {
+text-align: left;
+font-size: 18px;
+}
+
+.glyphicon {
+  font-size: 20px;
+}
+
+.stepslist {
+  margin-top: 5px;
+}
+
+.step1 {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+}
+
+.step2 {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+}
+
+.step3 {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-image: none;
+  border-color: #a665a6;
+  padding: 10px 40px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #a665a6;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: #a665a6;
+  color: #a665a6;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footertext {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 170px;
+  font-family: 'Roboto';
+}
+
+
+/*About*/
+
+.abouttitle {
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 200px;
+}
+
+.abouttext {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 25px;
+}
+
+/*Earnings & Share*/
+
+.sharetitle {
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 100px;
+}
+
+.earningstext {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 10px;
+}
+
+.form {
+  height: 50px;
+  width: 390px;
+}
+
+.form-control {
+  margin-top: 0px;
+}
+
+.downloads {
+  float: right;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+}
+
+.generate {
+  float: left;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.form-group {
+  float: left;
+}
+
+.form2 {
+  height: 50px;
+  width: 400px;
+}
+
+.time {
+  float: right;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+}
+
+.wouldearn {
+  float: left;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.suggested {
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.line-separator{
+  height:1px;
+  border-bottom:1px solid #dad7de;
+  margin-top: 20px;
+}
+
+a {
+  color: #a665a6
+}
+
+/*Profile*/
+
+.user {
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+
+.signedin {
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.referral {
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+  font-size: 20px;
+}
+
+span {
+  color: #a665a6;
+}
+
+.line-separator2{
+  height:1px;
+  border-bottom:1px solid #dad7de;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.activitytitle {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 25px;
+  color: #5f6067;
+}
+
+.stats {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 20px;
+  color: #5f6067;
+}
+
+/*Sign Up*/
+
+#email {
+  border: none;
+  border-bottom: 1px solid;
+  width: 220px;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.signup {
+  margin: 50px auto 0px auto;
+  height: 500px;
+  width: 220px;
+}
+
+.signupbutton {
+  margin-top: 30px;
+}
+
+.createaccount {
+  text-align: center;
+}
+
+/*Sign In*/
+
+.forgot {
+  text-align: right;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #5f6067;
+}
+
+.signin {
+  margin: 50px auto 0px auto;
+  height: 500px;
+  width: 220px;
+  text-align: center;
+}
+
+.signinbutton {
+  margin-top: 30px;
+}
+
+/*Forgot Passsword Screen*/
+
+.forgottext {
+  text-align: left;
+  font-weight: 100;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+#forgot {
+  width: 500px;
+  margin: 150px auto 0px auto;
+}
+
+#email2 {
+  border: none;
+  border-bottom: 1px solid;
+  width: 300px;
+}
