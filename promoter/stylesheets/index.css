@@ -1,6 +1,6 @@
 #brand-image {
 	height: 50px;
-	width: 134px;
+	width: 200px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -32,7 +32,7 @@ margin-top: 20px;
 }
 
 .video {
-  margin-top: 100px;
+  margin-top: 15px;
 }
 
 .welcome {
@@ -41,7 +41,7 @@ margin-top: 20px;
   font-family: 'Roboto';
   font-weight: 100;
   color: #5f6067;
-  margin-top: 140px;
+  margin-top: 70px;
 }
 
 .img-responsive {
@@ -59,11 +59,7 @@ margin-top: 20px;
 
 .sharecol {
 text-align: left;
-font-size: 18px;
-}
-
-.glyphicon {
-  font-size: 20px;
+font-size: 20px;
 }
 
 .stepslist {
@@ -119,7 +115,7 @@ font-size: 18px;
 .footertext {
   font-size: 8px;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 210px;
   font-family: 'Roboto';
 }
 
