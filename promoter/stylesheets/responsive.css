@@ -4,7 +4,9 @@
   }
 
   .sharetitle {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
   }
 
   .form-control {
@@ -23,6 +25,10 @@
     margin-top: 50px;
   }
 
+  .line-separator {
+    margin-top: 15px;
+  }
+
   .line-separator2 {
     margin-top: 90px;
   }
@@ -30,4 +36,12 @@
   .earningstext {
     margin-bottom: 40px;
   }
+
+.step1, .step2, .step3 {
+  text-align: center;
+  }
+
+.footertext {
+  margin-top: 100px;
+}
 }
