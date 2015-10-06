@@ -408,6 +408,7 @@ input {
 .right {
   text-align: right;
   height: 45px;
+  margin-top: 10px;
 }
 
 .facebook {
