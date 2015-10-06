@@ -360,3 +360,52 @@ input {
   border-bottom: 1px solid;
   width: 300px;
 }
+
+/*Footer*/
+
+.outerfooter {
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.outerfooter1 {
+  padding: 0px;
+  margin-top: 220px;
+}
+
+.outerfooter2 {
+  padding: 0px;
+  margin-top: 295px;
+}
+
+.outerfooter3 {
+  padding: 0px;
+  margin-top: 455px;
+}
+
+.footer {
+  height: 60px;
+  background-color: rgba(95,96,103,.6);
+}
+
+.copyright {
+  color: white;
+  margin-top: 18px;
+  margin-left: 20px;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
+.right {
+  text-align: right;
+  height: 45px;
+}
+
+.facebook {
+  margin: 15px 20px 0px 20px;
+}
+
+.copyimg {
+  border-bottom: 3px;
+}

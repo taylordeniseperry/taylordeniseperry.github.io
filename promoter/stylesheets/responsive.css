@@ -1,4 +1,5 @@
 @media screen and (max-width: 992px) {
+
   .abouttitle {
     margin-top: 50px;
   }
@@ -43,5 +44,42 @@
 
 .footertext {
   margin-top: 100px;
+}
+
+.footer {
+  padding-top: 10px;
+  height: 79px;
+}
+
+.copyright {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.facebook {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.left {
+  text-align: center;
+}
+
+.right{
+  text-align: center;
+  height: 30px;
+}
+
+.abouttext {
+  margin-bottom: 250px;
+}
+
+#forgot {
+  margin-top: 40px;
+}
+
+.forgottext {
+  width: 300px;
 }
 }
