@@ -47,6 +47,7 @@ margin-top: 20px;
   font-weight: 100;
   color: #5f6067;
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .img-responsive {
@@ -59,7 +60,8 @@ margin-top: 20px;
   font-family: 'Roboto';
   font-weight: 100;
   color: #5f6067;
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .sharecol {
@@ -148,6 +150,7 @@ font-size: 20px;
   font-weight: 100;
   color: #5f6067;
   margin-top: 25px;
+  line-height: 30px;
 }
 
 /*Earnings & Share*/
@@ -159,6 +162,7 @@ font-size: 20px;
   font-weight: 100;
   color: #5f6067;
   margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .earningstext {
@@ -168,6 +172,7 @@ font-size: 20px;
   font-weight: 100;
   color: #5f6067;
   margin-top: 10px;
+  line-height: 20px;
 }
 
 .form {
@@ -290,6 +295,7 @@ span {
   font-weight: 100;
   font-size: 20px;
   color: #5f6067;
+  margin-top: 15px;
 }
 
 /*Sign Up*/
@@ -328,6 +334,7 @@ input {
   font-family: 'Roboto';
   font-weight: 100;
   color: #5f6067;
+  margin-top: 10px;
 }
 
 .signin {
@@ -348,6 +355,7 @@ input {
   font-weight: 100;
   font-family: 'Roboto';
   font-size: 20px;
+  line-height: 30px;
 }
 
 #forgot {
@@ -370,7 +378,7 @@ input {
 
 .outerfooter1 {
   padding: 0px;
-  margin-top: 220px;
+  margin-top: 250px;
 }
 
 .outerfooter2 {
@@ -380,7 +388,7 @@ input {
 
 .outerfooter3 {
   padding: 0px;
-  margin-top: 455px;
+  margin-top: 490px;
 }
 
 .footer {
