@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px) {
+
+ .appleimg, .googleimg, .beauTVimg {
+  height: 50px;
+  width: 145px;
+ }
+
+ .logo {
+  padding: 0px 10px 0px 10px;
+ }
+
+ }
