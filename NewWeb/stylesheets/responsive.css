@@ -9,4 +9,8 @@
   padding: 0px 10px 0px 10px;
  }
 
+video#bgvid {
+    display:hidden;
+}
+
  }
