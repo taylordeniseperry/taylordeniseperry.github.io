@@ -99,6 +99,10 @@ border-color: rgba(255,255,255,0.0);
   padding-right:140px;
 }
 
+.logomobile {
+  display: none;
+}
+
 p {
   text-align: center;
 }
