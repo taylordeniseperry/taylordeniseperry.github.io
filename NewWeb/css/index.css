@@ -1,0 +1,118 @@
+.nav {
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 25px;
+color: white;
+}
+
+.main {
+  padding: 0px;
+  margin: 0px;
+}
+
+.video {
+  padding: 0px;
+  margin: 0px;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.navbar-default .navbar-nav>li>a {
+padding-top: 26px;
+color: #ffffff;
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 20px;
+}
+
+.container-fluid>.navbar-header {
+  height: 70px;
+}
+
+.navbar-default .navbar-toggle {
+margin-top: 20px;
+}
+
+.navbar-toggle {
+  float: none;
+  margin: 20px auto;
+  border-color: rgba(255,255,255,0.0);
+}
+
+.navbar-inverse {
+background-color: rgba(255,255,255,0.0);
+background-image: none;
+border-color: rgba(255,255,255,0.0);
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255,255,255,0.0);
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: rgba(255,255,255,0);
+  box-shadow: none;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: rgba(255,255,255,0.0);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: rgba(255,255,255,0.0);
+}
+
+.title {
+  background-color: rgba(255,255,255,0.0);
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.logo {
+  margin-bottom: 150px;
+  padding-left: 100px;
+  padding-right:140px;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #a665a6;
+  text-decoration: none;
+}
+
+.apple {
+  margin-top: 45px;
+  margin-bottom: 50px;
+}

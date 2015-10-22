@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
@@ -30,48 +30,57 @@
 
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+    <div class="col-lg-12">
+    <button type="button" class="navbar-toggle" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+    <div class="col-lg-4 nav">
+      <p>How We Help</p>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="http://www.plumperfect.com/how-we-help.html">How We Help Businesses</a></li>
-        <li><a href="http://www.plumperfect.com/who-we-are.html">Who We Are</a></li>
-        <li><a href="http://www.plumperfect.com/contact-us.html">Contact Us</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <div class="col-lg-4 nav">
+      <p>Who We Are</p>
+    </div>
+    <div class="col-lg-4 nav">
+      <p>Contact Us</p>
+    </div>
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="navbar-header navbar-right">
+      <p class="navbar-text">
+      <a href="#" class="navbar-link">Username</a>
+      </p>
+    </div>
+  </div>
 </nav>
 
 <div class="container-fluid main">
   <div class="col-lg-12 video">
     <video autoplay loop id="bgvid">
-      <source src="img/video.mp4" type="video/mp4">
+      <source src="img/Burst.mov" type="video/mp4">
     </video>
   </div> <!-- End Col-lg-12 video -->
 
   <div class="col-lg-12">
     <div class="title">
-      <img class="img-responsive logo" src="img/logo.png"/>
+      <img class="img-responsive logo" src="img/title.png"/>
     </div>
   </div>
 
   <div class="col-lg-12 apple">
     <p>
-    <a href="https://itunes.apple.com/us/app/plum-perfect/id544889292?mt=8" target="_blank"><img src="img/apple.png" class="appleimg" height="87" width="251"></a>
-    <a href="https://play.google.com/store/apps/details?id=com.colormodules.plumperfect&amp;hl=en" target="_blank"><img src="img/google.png" class="googleimg" height="87" width="251"></a>
-    <a href="http://promoter.plumperfect.com/" target="_blank"><img src="img/beauTV.png" class="beauTVimg" height="87" width="251"></a>
+    <a href="https://itunes.apple.com/us/app/plum-perfect/id544889292?mt=8" target="_blank"><img src="img/apple.png" class="appleimg" height="50" width="145"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.colormodules.plumperfect&amp;hl=en" target="_blank"><img src="img/google.png" class="googleimg" height="50" width="145"></a>
+    <a href="http://promoter.plumperfect.com/" target="_blank"><img src="img/beauTV.png" class="beauTVimg" height="50" width="145"></a>
     </p>
 </div>
 
@@ -83,5 +92,6 @@
   <script src="scrollReveal.min.js" type="text/javascript"></script>
   <script src="main.js" type="text/javascript"></script>
   <script src="modernizr.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
 </body>
 </html>
