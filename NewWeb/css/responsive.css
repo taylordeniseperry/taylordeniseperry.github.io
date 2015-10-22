@@ -27,7 +27,7 @@ body {
 }
 
 .nav {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .first {
@@ -42,16 +42,44 @@ body {
   margin-top: 0px;
 }
 
+.longmenu {
+  height: 736px;
+}
+
  }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 375px) {
 
 .logomobile {
   display: block;
   margin-top: 100px;
  }
 
+ body {
+  background: url("../img/background.png");
+  background-size: cover;
+  z-index: -100;
+  height: 627px;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.7);
+}
+
  }
+
+ @media (max-width: 320x) {
+    body {
+  background: url("../img/background.png");
+  background-size: cover;
+  z-index: -100;
+  height: 568px;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.7);
+}
+  }
 
 
 
