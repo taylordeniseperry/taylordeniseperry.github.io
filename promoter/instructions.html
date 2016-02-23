@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Promoter Site</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61550527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+      	<img id="brand-image" src="images/Plum_PerfectLogo.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="share.html">Sharing</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="col-lg-12">
+    <p class="instructions-title">beauTV Live! Instructions</p>
+  </div>
+
+<div class="container-fluid main panels">
+  <div class="col-lg-offset-3 col-lg-6">
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default" id="panel1">
+        <div class="panel-heading">
+             <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseOne"
+           href="#collapseOne" class="collapsed">
+          Broadcaster Instuctions
+        </a>
+      </h4>
+
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul class="full-list">
+                <li>Software Setup
+                <ul>
+                  <li class="firstindent">Download a free video encoder (OBS) for your operating system (Windows, Mac, Linux) <a href="https://obsproject.com/download"><span style="font-color: #a665a6; font-weight: 400"><u>https://obsproject.com/download</u></span></a></li>
+                  <li class="firstindent">Install OBS by doubling clicking the downloaded file</li>
+                  <li class="firstindent">Open the OBS program</li>
+                  </ul></li>
+                <li>Camera Setup
+                  <ul>
+                  <li class="firstindent">Connect your digital camera/web cam to your computer if not done already.</li>
+                  <li class="firstindent">Within the OBS program, click the + icon under the <span style="font-color: #a665a6; font-weight: 400">Sources</span></li>
+                  <li class="firstindent">Select <span style="font-color: #a665a6; font-weight: 400">Video Capture Device > Create New > OK</span></li>
+                  <li class="firstindent">Under <span style="font-color: #a665a6; font-weight: 400">Device</span>: Select you digital camera, Ensure the window is displaying an image from the camera.</li>
+                  <li class="firstindent">Under <span style="font-color: #a665a6; font-weight: 400">Preset</span>, select <span style="font-color: #a665a6; font-weight: 400">1280x720</span> or the highest resolution available (top of the list).  <span style="font-color: #a665a6; font-weight: 400">Click OK</span></li>
+                  <li class="firstindent">Back in OBS, click the Picture feed from the Camera in the Preview window so it is highlighted in red.</li>
+                  <li class="firstindent">Hit <span style="font-color: #a665a6; font-weight: 400">CMD + C </span>to center the preview, then <span style="font-color: #a665a6; font-weight: 400">CMD + F</span> to fit it to the screen. OR Right click on the preview and select <span style="font-color: #a665a6; font-weight: 400">transform > center in frame</span> followed by <span style="font-color: #a665a6; font-weight: 400">fit to screen</span></li>
+                  </ul>
+                </li>
+                <li>Live Stream Setup
+                  <ul>
+                  <li class="firstindent">Click <span style="font-color: #a665a6; font-weight: 400">SETTINGS</span> (Bottom left corner)</li>
+                  <ul>
+                    <li class="secondindent">Click <span style="font-color: #a665a6; font-weight: 400">Output</span>
+                        <ul>
+                          <li class="thirdindent"><span style="font-color: #a665a6; font-weight: 400">Output Mode</span> Select Advanced</li>
+                          <li class="thirdindent">Under <span style="font-color: #a665a6; font-weight: 400">Bitrate</span> enter <span style="font-color: #a665a6; font-weight: 400">700</span></li>
+                          <li class="thirdindent">In <span style="font-color: #a665a6; font-weight: 400">Keyframe Interval</span> enter <span style="font-color: #a665a6; font-weight: 400">2</span></li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="secondindent">Click <span style="font-color: #a665a6; font-weight: 400">Video</span>
+                        <ul>
+                          <li class="thirdindent">In <span style="font-color: #a665a6; font-weight: 400">Output (Scaled) Resolution</span> field enter (type-in or copy-paste) <span style="font-color: #a665a6; font-weight: 400">854x480</span></li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="secondindent">Click <span style="font-color: #a665a6; font-weight: 400">Stream</span>
+                        <ul>
+                          <li class="thirdindent">Under <span style="font-color: #a665a6; font-weight: 400">Stream Type</span>, Select <span style="font-color: #a665a6; font-weight: 400">Custom Streaming Server</span></li>
+                          <li class="thirdindent">In the <span style="font-color: #a665a6; font-weight: 400">URL</span> field, copy and paste the <span style="font-color: #a665a6; font-weight: 400">StreamURL</span> emailed to you from PlumPerfect</li>
+                          <li class="thirdindent">In the <span style="font-color: #a665a6; font-weight: 400">Stream Key</span> field, copy and paste the <span style="font-color: #a665a6; font-weight: 400">StreamKEY</span> emailed to you from PlumPerfect</li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="secondindent">Click <span style="font-color: #a665a6; font-weight: 400">OK</span> to save settings
+                    </li>
+                  </ul>
+                </ul>
+                </li>
+                <li>Click <span style="font-color: #a665a6; font-weight: 400">"Start Streaming"</span> to begin your tutorial session. You can watch the video and see comments on youtube at the <span style="font-color: #a665a6; font-weight: 400">Event URL<span> specified in your Confirmation Email</li>
+              </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="panel panel-default" id="panel2">
+        <div class="panel-heading">
+             <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseTwo"
+           href="#collapseTwo" class="collapsed">
+          Event Coordinator Instructions
+        </a>
+      </h4>
+
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul class="full-list">
+                <li>Login to YouTube</li>
+                <li>Click the round profile icon in top right corner, select <span style="font-color: #a665a6; font-weight: 400">creator studio</span></li>
+                <li>Select <span style="font-color: #a665a6; font-weight: 400">LIVE STREMING</span>, Third option from the top in the Left Column under Creator Studio</li>
+                  <ul>
+                  <li class="firstindent">Click <span style="font-color: #a665a6; font-weight: 400">Events</span> under live streaming</li>
+                  <li class="firstindent">Select the Event that you will be starting from the list</li>
+              </ul>
+              </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+<div class="container-fluid outerfooter3">
+  <div class="navbar navbar-fixed-bottom">
+  <div class="col-lg-12 footer">
+    <div class="col-lg-6 left"><p class="copyright"><img src="images/copy.png" height="12" width="12" class="copyimg"> Plum Perfect</p></div>
+    <div class="col-lg-6 right"><p class="social">
+      <a href="https://www.facebook.com/PlumPerfectBeauty" target="_blank"><img class="facebook" src="images/facebook.png" height="30" width="30"/></a>
+
+      <a href="https://twitter.com/PlumPerfect?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="facebook" src="images/twitter.png" height="30" width="30"/></a>
+
+      <a href="https://www.pinterest.com/plumperfectpins/" target="_blank"><img class="facebook" src="images/pinterest.png" height="30" width="30"/></a>
+
+      <a href="https://instagram.com/plumperfectbeauty/" target="_blank"><img class="facebook" src="images/instagram.png" height="30" width="30"/></a>
+    </p>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="index2.js" type="text/javascript"></script>
+  <script src="scrollReveal.min.js" type="text/javascript"></script>
+  <script src="main.js" type="text/javascript"></script>
+  <script src="modernizr.js" type="text/javascript"></script>
+</body>
+</html>

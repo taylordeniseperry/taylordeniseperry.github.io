@@ -1,3 +1,9 @@
+
+
+body {
+  height: 800px;
+}
+
 #brand-image {
 	height: 50px;
 	width: 200px;
@@ -127,7 +133,6 @@ font-size: 20px;
 .footertext {
   font-size: 12px;
   text-align: center;
-  margin-top: 210px;
   font-family: 'Roboto';
 }
 
@@ -388,12 +393,12 @@ input {
 
 .outerfooter3 {
   padding: 0px;
-  margin-top: 490px;
+  margin-top: 390px;
 }
 
 .footer {
   height: 60px;
-  background-color: rgba(95,96,103,.6);
+  background-color: #AFAFB2;
 }
 
 .copyright {
@@ -408,7 +413,6 @@ input {
 .right {
   text-align: right;
   height: 45px;
-  margin-top: 10px;
 }
 
 .facebook {
@@ -418,3 +422,83 @@ input {
 .copyimg {
   border-bottom: 3px;
 }
+
+/*Instructions*/
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e259";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e258";
+}
+
+.panels {
+  height: 300px;
+}
+
+.newinstructions {
+  list-style: circle;
+}
+
+.newerinstructions {
+  list-style: circle;
+}
+
+.firstindent {
+  margin-left: 20px;
+}
+
+.secondindent {
+  margin-left: 40px;
+}
+
+.thirdindent {
+  margin-left: 20px;
+}
+
+.panel-title {
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 20px;
+}
+
+.panel-body {
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 15px;
+line-height: 25px;
+}
+
+.full-list {
+  margin-left: 40px;
+}
+
+#panel2 {
+  margin-bottom: 300px;
+}
+
+.panel-default>.panel-heading {
+  background-image: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+}
+
+.panel {
+  border: 0;
+}
+
+.instructions-title {
+  font-family: 'Roboto';
+font-weight: 100;
+font-size: 25px;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 55px;
+}
+
+a:hover {
+  text-decoration: none;
+  }
