@@ -1,0 +1,2518 @@
+.nav-container {
+  display: block;
+  overflow: visible;
+  width: 100%;
+  margin: 9px auto 12px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: none;
+  clear: none;
+}
+
+.navigation {
+  padding-right: 0px;
+  background-color: #fff;
+}
+
+.logo {
+  margin-top: 13px;
+  padding-left: 40px;
+}
+
+.maincontainer {
+  height: 600px;
+}
+
+.slideragain {
+  height: 690px;
+}
+
+.slide1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Artboard 43 Copy_1.png');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.image1 {
+  width: 100%;
+  height: 700px;
+  background-image: url('../images/Artboard 43 Copy.png');
+  background-position: 0px 0px;
+  background-size: 1440px;
+}
+
+.image2 {
+  position: static;
+  width: 100%;
+  height: 760px;
+}
+
+.image3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/Artboard 43 Copy 3.png');
+  background-position: 50% 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.inner {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home {
+  font-family: 'Helveticaneue light', sans-serif;
+}
+
+.home.navlink {
+  color: #5f6067;
+  font-size: 14px;
+}
+
+.nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: auto;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  border-color: rgba(0, 0, 0, .2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-color: #fff;
+}
+
+.navlink1 {
+  font-family: 'Helveticaneue light', sans-serif;
+  color: #000;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.navlink1:hover {
+  color: #f940a5;
+}
+
+.menu-links {
+  padding-right: 40px;
+}
+
+.landing-page {
+  display: block;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.landingimage {
+  opacity: 0.6;
+}
+
+.landingtext {
+  position: absolute;
+}
+
+.heading {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 228px auto 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Helveticaneue light', sans-serif;
+  color: #000;
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.heading2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin: 339px auto -120px;
+  padding-top: 0px;
+  opacity: 1;
+  font-family: 'Helveticaneue light', sans-serif;
+  color: #000;
+  font-weight: 200;
+  text-align: center;
+}
+
+.body {
+  overflow: visible;
+  height: auto;
+  margin-top: 0px;
+}
+
+.mainlogo {
+  position: absolute;
+  display: block;
+  width: 135px;
+  margin-top: 356px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: perspective(1px);
+  transform: perspective(1px);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.downloadbutton2 {
+  position: absolute;
+  display: block;
+  width: 152px;
+  height: 40px;
+  margin-top: 505px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  letter-spacing: 6px;
+}
+
+.btndiv {
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  clear: both;
+}
+
+.logodiv {
+  display: block;
+  width: 135px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.downarrow {
+  position: static;
+  display: block;
+  width: 50px;
+  margin-top: 659px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 693px;
+}
+
+.arrow {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.how-it-works {
+  width: 100%;
+  margin-top: 50px;
+  border-bottom: 1px none #000;
+}
+
+.lefttext {
+  width: 50%;
+}
+
+.workstitle {
+  margin-top: 48px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.how-it-works-slider-left {
+  position: static;
+  width: 100%;
+  height: 640px;
+  float: left;
+}
+
+.slider1 {
+  background-color: #fff;
+}
+
+.how-it-works-title {
+  margin-top: 48px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.slidernav {
+  position: static;
+  display: block;
+  margin-top: 0px;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.navslider {
+  display: none;
+}
+
+.download2 {
+  display: block;
+  width: 152px;
+  margin-top: 210px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.slideright {
+  position: relative;
+  width: 50%;
+  height: 640px;
+  float: right;
+}
+
+.leftwrap {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  float: left;
+  border-right: 1px solid #e8e8e8;
+}
+
+.divwrapright {
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+.rightwrap {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin-top: 15px;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+}
+
+.leftslide2 {
+  margin-top: 0px;
+}
+
+.leftslide1 {
+  display: block;
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.rightslide1 {
+  width: 270%;
+  height: 800px;
+}
+
+.rightslide2 {
+  background-color: #fff;
+}
+
+.rightslider {
+  height: 640px;
+  border-top: 1px none #000;
+}
+
+.leftslider {
+  height: 640px;
+  margin-top: 0px;
+  border-top: 1px none #000;
+  border-bottom: 1px none #000;
+  background-color: #fff;
+}
+
+.howitworkstitle {
+  margin-top: 29px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.btnwrap {
+  margin-top: -147px;
+  background-color: #fff;
+}
+
+.leftslide3 {
+  margin-top: 0px;
+}
+
+.btn2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btnsample {
+  display: block;
+  width: 152px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.btn3 {
+  display: block;
+  width: 152px;
+  margin-top: 63px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.btnwrap3 {
+  display: block;
+  margin-top: 66px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.youll {
+  margin-top: 9px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 30px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.rightimage1 {
+  width: 100%;
+  height: 798px;
+}
+
+.rightimage2 {
+  width: 100%;
+  height: 798px;
+  background-image: url('../images/2_1.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.rightimage3 {
+  width: 100%;
+  height: 799px;
+  border-bottom: 1px none #000;
+}
+
+.nav2 {
+  display: none;
+}
+
+.slide {
+  margin-top: 0px;
+}
+
+.samples {
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.jmanuel {
+  display: inline-block;
+  width: 50%;
+  height: 403px;
+  margin-top: 13px;
+}
+
+.girl-seeks {
+  height: 60px;
+  margin-top: 18px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.boy-style {
+  height: 10px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 46px;
+  text-align: center;
+}
+
+.samplestext {
+  display: inline-block;
+  width: 100%;
+  height: 308px;
+  margin-top: 29px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 19px;
+  line-height: 31px;
+}
+
+.text {
+  display: block;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.image {
+  display: block;
+}
+
+.textt {
+  display: inline-block;
+  width: 50%;
+}
+
+.how {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  color: #222;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+.how-it-works-titles {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.wrapper {
+  height: 803px;
+  background-color: #fff;
+  background-image: url('../images/2.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.seconds {
+  margin-top: 8px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.samplestitle {
+  margin-top: 116px;
+}
+
+.samplesmain {
+  margin-top: 32px;
+  padding-bottom: 20px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.company {
+  margin-top: 13px;
+  font-family: 'Helveticaneue light', sans-serif;
+  color: #f47121;
+  font-size: 30px;
+}
+
+.btn4 {
+  width: 152px;
+  margin-top: 9px;
+  background-color: #000;
+  letter-spacing: 6px;
+}
+
+.btnagain {
+  margin-top: -35px;
+}
+
+.slidebg2 {
+  position: relative;
+  background-image: url('../images/Artboard 43 Copy 2.png');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sslide {
+  background-image: url('../images/Artboard 47.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.link1 {
+  position: absolute;
+  overflow: visible;
+  margin-top: 511px;
+  margin-left: 625px;
+}
+
+.linebreak1 {
+  display: block;
+  width: 70%;
+  margin-top: -21px;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: #000;
+  border-top-style: solid;
+  border-top-width: 1px;
+  opacity: 0.4;
+}
+
+.step1 {
+  margin-top: 95px;
+  margin-bottom: 62px;
+  padding-top: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 40px;
+  line-height: 1.6;
+  font-weight: 300;
+  text-align: center;
+}
+
+.selfies {
+  width: 90%;
+  height: auto;
+  margin-top: -53px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  padding-bottom: 0px;
+}
+
+.colorsig {
+  width: 50%;
+  border-right: 1px solid #e8e8e8;
+}
+
+.steo2 {
+  width: 50%;
+}
+
+.howitworks2 {
+  display: inline-block;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.selfieimages {
+  display: block;
+  width: 50%;
+  height: 500px;
+  border-right: 1px solid #000;
+}
+
+.step2 {
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+  margin-top: 0px;
+}
+
+.step2text {
+  margin-top: 0px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.cs {
+  width: 90%;
+}
+
+.btn5 {
+  display: block;
+  width: 152px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.hiw2 {
+  margin-top: 18px;
+}
+
+.colorsignature {
+  display: inline-block;
+  width: 50%;
+}
+
+.colorsignature3 {
+  display: inline-block;
+  width: 50%;
+}
+
+.csimage {
+  margin-top: -44px;
+  padding-top: 0px;
+  padding-right: 15px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.cstext {
+  margin-top: -17px;
+  padding-top: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.btnwrapper {
+  margin-top: 29px;
+}
+
+.btn6 {
+  display: block;
+  width: 152px;
+  margin-top: 73px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.hiw3 {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.hiwtext3 {
+  display: inline-block;
+  width: 50%;
+  padding-top: 133px;
+  padding-bottom: 92px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.hiw3image {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin-top: 124px;
+}
+
+.hiw3text {
+  border-style: none;
+  border-right-width: 1px;
+  border-right-color: #e8e8e8;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.deluxe {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.your {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.productsimage {
+  display: block;
+  width: 90%;
+  margin: 40px auto 55px;
+}
+
+.btn7 {
+  display: block;
+  width: 152px;
+  margin-top: 49px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  letter-spacing: 6px;
+}
+
+.imageproduct {
+  width: 90%;
+  margin-top: -348px;
+}
+
+.imageagain {
+  display: inline-block;
+  width: 100%;
+  margin-top: -128px;
+  margin-left: 25px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.girlseeks {
+  margin-top: 127px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+}
+
+.girlseekstext {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+}
+
+.line2 {
+  display: block;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 1px solid #e8e8e8;
+}
+
+.boy {
+  text-decoration: line-through;
+}
+
+.eplination {
+  text-align: center;
+}
+
+.premium {
+  font-family: 'Proximanova light', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+.standard {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Proximanova light', sans-serif;
+  text-align: center;
+}
+
+.test {
+  text-align: center;
+}
+
+.jay-image {
+  display: inline;
+  width: 50%;
+  height: auto;
+  margin-top: 0px;
+  float: none;
+  border-bottom: 1px solid #000;
+}
+
+.imagejay {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: right;
+}
+
+.jaytext {
+  padding-left: 25px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.img {
+  margin-top: 0px;
+}
+
+.jayjay {
+  font-size: 27px;
+}
+
+.btnagainn {
+  display: block;
+  width: 152px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.title {
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.samplesexplanation {
+  margin-top: 25px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.btnaggain {
+  display: block;
+  width: 152px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.sample-levels {
+  margin-top: 20px;
+  padding-top: 0px;
+}
+
+.samplesubtitle {
+  margin-top: 30px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  line-height: 13px;
+  text-align: center;
+}
+
+.imgg {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, .34);
+}
+
+.two-samples {
+  margin-top: 30px;
+}
+
+.free {
+  display: inline-block;
+  width: auto;
+  border-style: none;
+  border-right-width: 1px;
+  border-right-color: #000;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #c73ca0;
+  font-style: italic;
+  text-align: center;
+}
+
+.premiumsamples {
+  display: inline-block;
+  width: 50%;
+}
+
+.standardsamples {
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.premiumm {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.samplerules {
+  margin-top: 24px;
+}
+
+.active {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.fineprint {
+  padding-top: 0px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.contain {
+  margin-top: 30px;
+}
+
+.div {
+  margin-top: 0px;
+  padding-top: 25px;
+  clear: both;
+}
+
+.workslink {
+  font-size: 13px;
+}
+
+.workslink:hover {
+  color: #f940a5;
+}
+
+.beautvtitle {
+  margin-top: 3px;
+  padding-bottom: 20px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.beautv-header {
+  margin-top: 94px;
+  padding-top: 117px;
+}
+
+.beautv-sub {
+  margin-top: 0px;
+  padding-top: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  line-height: 44px;
+  font-style: italic;
+  text-align: center;
+}
+
+.beautv-3 {
+  margin-top: 33px;
+}
+
+.person1 {
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.person2 {
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.youget {
+  margin-top: 17px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.btnn {
+  display: block;
+  width: 152px;
+  margin-top: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.makeup-police-header {
+  margin-top: 101px;
+  padding-top: 104px;
+}
+
+.makeuptitle {
+  margin-top: 6px;
+  margin-bottom: 26px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.makeup-police {
+  margin-top: 50px;
+  border-top: 1px solid rgba(97, 97, 97, .1);
+  border-bottom: 1px solid rgba(97, 97, 97, .1);
+  background-color: hsla(5, 44%, 66%, .14);
+}
+
+.muptext {
+  margin-top: 61px;
+  padding-right: 45px;
+  border-style: none solid none none;
+  border-width: 2px 1px 2px 2px;
+  border-color: #000;
+  font-family: 'Proximanova light', sans-serif;
+  color: #000;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.button {
+  display: inline-block;
+  width: 152px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.wrapperbtn {
+  border-right: 1px solid #e8e8e8;
+}
+
+.mylooka-header {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.mylooksheader {
+  margin-top: 6px;
+  margin-bottom: 26px;
+  font-family: 'Helveticaneue light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.mylooks {
+  margin-top: 21px;
+}
+
+.mylookstext {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.btn9 {
+  display: block;
+  width: 152px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.whoweare {
+  margin-top: 91px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(97, 97, 97, .1);
+  border-bottom: 1px solid rgba(97, 97, 97, .1);
+  background-color: #f7ffff;
+}
+
+.whoweareheader {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.whowearetext {
+  margin-top: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.wearetext {
+  margin-top: 20px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  line-height: 52px;
+}
+
+.divabout {
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+
+.divmore {
+  margin-top: 20px;
+}
+
+.moretous {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 31px;
+  font-style: italic;
+  text-align: center;
+}
+
+.talktousheader {
+  margin-top: 100px;
+  padding-top: 99px;
+}
+
+.talktous {
+  margin-top: 4px;
+  margin-bottom: 25px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.talktoustext {
+  margin-bottom: 45px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.talktoussub {
+  margin-top: 25px;
+}
+
+.formwrapper {
+  margin-top: 28px;
+}
+
+.name1 {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.name2 {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.name3 {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.name4 {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.submitbtn {
+  margin-top: 0px;
+  margin-bottom: 22px;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.footer-separator {
+  margin-top: 53px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.footer {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.twitter {
+  width: 25%;
+  height: 50%;
+  float: right;
+  clear: none;
+}
+
+.faccebook {
+  width: 25%;
+  float: right;
+}
+
+.col2 {
+  padding-left: 3px;
+}
+
+.press {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 45px;
+  border-top: 1px none #e8e8e8;
+  border-bottom: 1px none #e8e8e8;
+}
+
+.pressection {
+  margin-top: 29px;
+}
+
+.linkblock {
+  position: relative;
+  display: inline;
+  width: 100%;
+  height: 80%;
+  padding-top: 0px;
+}
+
+.mupimage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boyy {
+  text-decoration: line-through;
+}
+
+.mainwarpdesktop {
+  overflow: hidden;
+}
+
+.row2 {
+  margin-top: 21px;
+}
+
+.under30 {
+  margin-top: 50px;
+}
+
+._30seconds {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  line-height: 0px;
+  text-align: center;
+}
+
+.secondsbtn {
+  display: block;
+  width: 152px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+._30btndiv {
+  display: block;
+  margin-top: 11px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.looks {
+  display: block;
+  margin-top: 28px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btv {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btvdiv {
+  display: block;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mup {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mupdiv {
+  margin-top: 19px;
+}
+
+.lookdiv {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.splash {
+  position: static;
+  display: block;
+  background-color: #fff;
+}
+
+.splashscreen {
+  background-color: #fff;
+}
+
+.never {
+  display: inline-block;
+  height: 100%;
+  background-image: url('../images/Artboard 43 Copy 11.png');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.newslider {
+  position: relative;
+  display: block;
+  height: auto;
+  max-height: none;
+  margin-top: 77px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon1 {
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.span {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+}
+
+.span1 {
+  font-family: 'Proximanova light', sans-serif;
+  font-style: normal;
+}
+
+.footerlefttext {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.facebookicon {
+  margin-right: 20px;
+  margin-left: 0px;
+  padding-right: 0px;
+  float: right;
+}
+
+.twittericon {
+  margin-right: 20px;
+  float: right;
+}
+
+.pinteresticon {
+  margin-right: 20px;
+  float: right;
+  clear: none;
+  text-align: left;
+}
+
+.icons {
+  margin-right: 0px;
+  padding-right: 0px;
+  float: right;
+}
+
+.instaicon {
+  margin-right: 0px;
+  float: right;
+}
+
+.link {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  height: 650px;
+}
+
+.neverblock {
+  width: 100%;
+  height: 500px;
+}
+
+.engineblock {
+  position: static;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+}
+
+.samplesblock {
+  width: 100%;
+  height: 100%;
+}
+
+.beautvblock {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.mask {
+  height: 100%;
+}
+
+.neverslider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/example-bg.png');
+  background-position: 0px 0px;
+  background-size: 125px;
+}
+
+.slider {
+  height: 100%;
+}
+
+.testslider {
+  height: 100%;
+  margin-top: 77px;
+}
+
+.leftarrow {
+  background-color: rgba(0, 152, 255, 0);
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
+}
+
+.rightarrow {
+  background-color: rgba(44, 131, 190, 0);
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
+}
+
+.download {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #000;
+  background-color: hsla(0, 0%, 100%, .89);
+}
+
+.stickbtn {
+  display: block;
+  width: 152px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+  font-family: 'Helveticaneue light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.howspacer {
+  width: 100%;
+  height: 52px;
+}
+
+.hero {
+  margin-top: 45px;
+}
+
+.step1text {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.step3text {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.steo2image {
+  margin-top: 10px;
+}
+
+.step1image {
+  margin-top: 10px;
+}
+
+.container1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.selfietext {
+  margin-top: 25px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.colorsigtext {
+  margin-top: 25px;
+  padding-bottom: 15px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.productstext {
+  margin-top: 25px;
+  padding-bottom: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.textrow {
+  margin-top: 20px;
+}
+
+._30secondstext {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #f940a5;
+  font-style: italic;
+}
+
+.engineered {
+  border-top: 1px solid rgba(97, 97, 97, .1);
+  border-bottom: 1px solid rgba(97, 97, 97, .1);
+  background-color: rgba(0, 82, 255, .16);
+}
+
+.foryoutext {
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 55px;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.foryoucontainer {
+  margin-top: 150px;
+}
+
+.iconscontainer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.engineeredbtn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  background-color: #711781;
+  letter-spacing: 6px;
+}
+
+.samplescontainer {
+  height: auto;
+  margin-top: 100px;
+  background-image: url('../images/Artboard 77 Copy.png');
+  background-position: 100% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.samplesimage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.girlseekssampletext {
+  display: block;
+  padding-top: 30px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.crushtext {
+  padding-top: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.pencil-ad {
+  margin-top: -50px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.btvtext {
+  padding-top: 20px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.shoptext {
+  padding-top: 10px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btvlogo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mupimages {
+  margin-top: 30px;
+}
+
+.muptextt {
+  padding-top: 20px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.lookstext {
+  padding-top: 20px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.perfectionists {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #711781;
+  font-style: italic;
+}
+
+.confident {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #fd5eb4;
+  font-style: italic;
+}
+
+.convienence {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #00b9b9;
+  font-style: italic;
+}
+
+.new {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #711781;
+  font-style: italic;
+}
+
+.appstore {
+  padding-right: 0px;
+}
+
+.googleicon {
+  padding-right: 0px;
+}
+
+.btncontainer {
+  margin-top: 42px;
+}
+
+.beautvhorizontal {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.samplesspacers {
+  height: 52px;
+}
+
+.beautvspacer {
+  height: 52px;
+}
+
+.mupspacer {
+  height: 52px;
+}
+
+.looksspacer {
+  height: 52px;
+}
+
+.whospacer {
+  height: 52px;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.footerspacing {
+  height: 50px;
+}
+
+.formplaceholder {
+  font-family: 'Proximanova light', sans-serif;
+}
+
+.foryou {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 47px;
+  line-height: 62px;
+}
+
+.uploadphoto {
+  font-family: 'Proximanova light', sans-serif;
+  font-size: 26px;
+  line-height: 43px;
+}
+
+.downloadbtn {
+  width: 152px;
+  margin-top: 28px;
+  background-color: #711781;
+  font-family: 'Proximanova light', sans-serif;
+  letter-spacing: 6px;
+}
+
+.col1 {
+  margin-top: 160px;
+  padding-left: 80px;
+}
+
+.downloadnav {
+  width: 180px;
+  margin-top: 15px;
+  padding: 5px 8px;
+  background-color: #ff358b;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.app {
+  font-size: 12px;
+}
+
+html.w-mod-js *[data-ix="load"] {
+  opacity: 1;
+}
+
+html.w-mod-js *[data-ix="heading-load-1"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="heading-load-2"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="download-btn"] {
+  opacity: 0;
+  width: 152px;
+  height: 40px;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+html.w-mod-js *[data-ix="reveal-left"] {
+  opacity: 0;
+  -webkit-transform: translate(-50px, 0px);
+  -ms-transform: translate(-50px, 0px);
+  transform: translate(-50px, 0px);
+}
+
+html.w-mod-js *[data-ix="reveal-right"] {
+  opacity: 0;
+  -webkit-transform: translate(50px, 0px);
+  -ms-transform: translate(50px, 0px);
+  transform: translate(50px, 0px);
+}
+
+html.w-mod-js *[data-ix="fade-into-view"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 40px);
+  -ms-transform: translate(0px, 40px);
+  transform: translate(0px, 40px);
+}
+
+html.w-mod-js *[data-ix="display-none"] {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .heading2 {
+    width: 75%;
+    margin-top: 384px;
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading2 {
+    margin-right: 0px;
+    padding-right: 46px;
+  }
+  .downloadbutton2 {
+    margin-top: 571px;
+  }
+}
+
+@media (max-width: 479px) {
+  .logo {
+    padding-left: 5px;
+  }
+  .slideragain {
+    height: 170px;
+  }
+  .slide1 {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .nav {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    border-top: 1px solid #000;
+  }
+  .navlink1 {
+    width: 100%;
+  }
+  .menu-links {
+    padding-right: 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: hsla(0, 0%, 100%, .97);
+  }
+  .landing-page {
+    height: 600px;
+  }
+  .heading {
+    margin-top: 212px;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .heading2 {
+    display: block;
+    width: 85%;
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: 23px;
+    padding-right: 0px;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .body {
+    overflow: hidden;
+  }
+  .mainlogo {
+    margin-top: 350px;
+  }
+  .downloadbutton2 {
+    margin-top: 427px;
+  }
+  .arrow {
+    margin-top: -177px;
+  }
+  .main {
+    height: 237px;
+    margin-bottom: 425px;
+  }
+  .how-it-works.original {
+    margin-top: 20px;
+  }
+  .leftwrap {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .rightwrap {
+    width: 100%;
+  }
+  .btnwrap {
+    margin-top: -110px;
+  }
+  .how {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .how-it-works-titles {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  .seconds {
+    font-size: 30px;
+  }
+  .linebreak1 {
+    margin-top: -23px;
+  }
+  .step1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  .selfies {
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 19px;
+  }
+  .colorsignature {
+    width: 100%;
+    margin-top: 52px;
+  }
+  .colorsignature3 {
+    display: inline-block;
+    width: 100%;
+  }
+  .csimage {
+    margin-top: -12px;
+  }
+  .cstext {
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    line-height: 1.6;
+  }
+  .hiwtext3 {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 8px;
+  }
+  .hiw3image {
+    width: 100%;
+    margin-top: 260px;
+    padding-top: 0px;
+  }
+  .hiw3text {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 25px;
+    line-height: 1.6;
+  }
+  .btn7 {
+    margin-top: 0px;
+  }
+  .imageagain {
+    margin-top: -264px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .girlseeks {
+    margin-top: 21px;
+    padding-top: 0px;
+    background-image: url('../images/Artboard 79 Copy 2.png');
+    background-position: 100% 0px;
+    background-size: 400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  .girlseekstext {
+    margin-bottom: 0px;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .jay-image {
+    width: 100%;
+    height: auto;
+  }
+  .imagejay {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .title {
+    text-align: center;
+  }
+  .samplesexplanation {
+    text-align: center;
+  }
+  .btnaggain {
+    display: block;
+    float: none;
+  }
+  .sample-levels {
+    margin-top: 30px;
+  }
+  .samplesubtitle {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .two-samples {
+    margin-top: 27px;
+  }
+  .free {
+    width: 100%;
+  }
+  .premiumsamples {
+    width: 100%;
+  }
+  .standardsamples {
+    font-size: 20px;
+  }
+  .premiumm {
+    margin-top: 19px;
+    padding-top: 14px;
+    border-top: 1px none #000;
+    font-size: 20px;
+  }
+  .btnwrappper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .beautvtitle {
+    padding-bottom: 0px;
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .beautv-header {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .beautv-sub {
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .person1 {
+    font-size: 15px;
+  }
+  .person2 {
+    margin-top: 28px;
+    font-size: 15px;
+  }
+  .youget {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .makeup-police-header {
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: hsla(5, 44%, 66%, .18);
+  }
+  .makeuptitle {
+    margin-top: 0px;
+    padding-top: 15px;
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .muptext {
+    display: block;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 21px;
+    padding-left: 20px;
+    border-right-style: none;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mylooka-header {
+    margin-top: 0px;
+  }
+  .mylooksheader {
+    margin-bottom: 0px;
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .mylookstext {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .whoweare {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoweareheader {
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .whowearetext {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+  }
+  .wearetext {
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 37px;
+    text-align: center;
+  }
+  .talktousheader {
+    margin-top: 36px;
+    padding-top: 0px;
+  }
+  .talktous {
+    margin-bottom: 0px;
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .form {
+    margin-top: 0px;
+  }
+  .talktoustext {
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 35px;
+  }
+  .formwrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .submitbtn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .linkblock {
+    padding-top: 0px;
+  }
+  .mupimage {
+    margin-top: 23px;
+  }
+  .essentials {
+    margin-bottom: 20px;
+  }
+  .boldlips {
+    margin-bottom: 20px;
+  }
+  .glam {
+    margin-bottom: 20px;
+  }
+  .goingout {
+    margin-bottom: 20px;
+  }
+  .nomakeup {
+    margin-bottom: 20px;
+  }
+  .numbers {
+    margin-bottom: 17px;
+  }
+  .imageee {
+    margin-top: 78px;
+  }
+  .tester {
+    margin-top: 77px;
+  }
+  .mobileslider {
+    width: 100%;
+    height: 404px;
+  }
+  .slidersection {
+    position: static;
+    margin-top: 77px;
+  }
+  .image1mobile {
+    background-image: url('../images/Artboard 43 Copy 8.png');
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .imageslide2 {
+    background-image: url('../images/Artboard 43 Copy 9.png');
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .imageslide3 {
+    background-image: url('../images/Artboard 43 Copy 10.png');
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  ._30sectext {
+    display: block;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Proximanova light', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .secdiv {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-left: auto;
+  }
+  .blogger1 {
+    margin-top: 0px;
+    margin-bottom: 29px;
+  }
+  .looksimage {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .mup1 {
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mupp {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .policediv {
+    opacity: 1;
+  }
+  .mup32 {
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .looksa {
+    display: block;
+    margin-top: 17px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .never {
+    background-image: url('../images/Artboard 43 Copy 12.png');
+    background-size: 400px;
+  }
+  .nevermobile {
+    background-image: url('../images/Artboard 43 Copy 12_1.png');
+    background-position: 0px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .footertextbottom {
+    margin-bottom: 15px;
+    font-family: 'Proximanova light', sans-serif;
+    text-align: center;
+  }
+  .iconsdiv {
+    margin-left: 23%;
+  }
+  .instaicons {
+    margin-left: 20px;
+  }
+  .pinicon {
+    margin-left: 20px;
+  }
+  .twiticon {
+    margin-left: 20px;
+  }
+  .nevblock {
+    width: 100%;
+    height: 100%;
+  }
+  .engblock {
+    width: 100%;
+    height: 100%;
+  }
+  .heroimage {
+    margin-top: 64px;
+  }
+  .engineeredforyou {
+    background-color: #c8e9fe;
+  }
+  .step1new {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  ._30sec {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #f940a5;
+    font-style: italic;
+  }
+  .samplesicon {
+    display: block;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .samplesicon1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .crush {
+    margin-top: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  .perf {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #711781;
+    font-style: italic;
+  }
+  .conf {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fd5eb4;
+    font-style: italic;
+  }
+  .conv {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #00b9b9;
+    font-style: italic;
+  }
+  .downloadmenu {
+    width: 100%;
+    background-color: #000;
+    font-family: 'Proximanova light', sans-serif;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .freemobile {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #f940a5;
+    font-style: italic;
+  }
+  .samplesspacermobile {
+    height: 50px;
+  }
+  .beautvspacermobile {
+    height: 71px;
+  }
+  .mupspacermobile {
+    height: 50px;
+  }
+  .looksspacermobile {
+    height: 50px;
+  }
+  .whowearespacermobile {
+    height: 50px;
+  }
+  .talkspacermobile {
+    height: 50px;
+  }
+  .fixeddownload {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .downloadbtnfixed {
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f940a5;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+}
+
+@font-face {
+  font-family: 'Helveticaneue light';
+  src: url('../fonts/HelveticaNeue-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneue light';
+  src: url('../fonts/HelveticaNeue-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneue light';
+  src: url('../fonts/HelveticaNeue-Light.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proximanova light';
+  src: url('../fonts/ProximaNova-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
