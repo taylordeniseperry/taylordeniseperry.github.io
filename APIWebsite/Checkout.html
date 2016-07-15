@@ -1,0 +1,259 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/APILogo.png" width="112" height="25"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APIs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="APIIndex.html#ColorRec">COLOR RECOMMENDATION API</a></li>
+                <li><a href="APIIndex.html#ColorSig">COLOR SIGNATURE API</a></li>
+                <li><a href="APIIndex.html#MakeupPolice">MAKEUP POLICE API</a></li>
+              </ul>
+            </li>
+            <li><a href="YourAPI.html">YOUR APIs</a></li>
+            <li><a href="Payments.html">PAYMENTS</a></li>
+            <li><a href="Settings.html">YOUR SETTINGS</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            <li><a href="Logout.html" class="anchor"><button class="loginbtn">
+              <h1>LOGOUT</h1>
+            </button></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div id="wrap">
+
+    <div class="container-fluid maintitle">
+      <div class="header" id="ColorRec">
+            <h3>COLOR SIGNATURE API</h3>
+        </div>
+    </div>
+
+    <!-- Contact Us At -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xs-12 contactcol">
+            <h1 class="checkoutheader">Today you pay $100 base price. After, you will be charged $0.1 per API call.</h1><br>
+        </div>
+      </div> <!-- End Row -->
+    </div> <!-- End Container Fluid -->
+
+    <!-- Boxes -->
+    <div class="container-fluid">
+      <div class="row socialrow">
+        <div class="col-lg-4 col-xs-12">
+            <div class="CardBox">
+            <div class="col-lg-12 col-xs-12">
+              <div class="cardinfo">
+              <p>CARD INFORMATION</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div>
+              <p><input type="text" id="checkfirstname" placeholder="FIRST NAME"></p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div>
+              <p><input type="text" id="checklastname" placeholder="LAST NAME"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-xs-12">
+              <div>
+                <p><input class="cardnumber" type="text" id="cardnumber" placeholder="CREDIT CARD NUMBER"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-4">
+              <div>
+                <p><input class="reason" type="text" id="expmonth" placeholder="MONTH"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-4">
+              <div>
+                <p><input class="reason" type="text" id="expyear" placeholder="YEAR"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-4">
+              <div>
+                <p><input class="reason" type="text" id="ccv" placeholder="CCV"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-xs-12">
+           <div class="CardBox">
+            <div class="col-lg-12 col-xs-12">
+              <div class="cardinfo">
+              <p>BILLING INFORMATION</p>
+              </div>
+            </div>
+            <div class="col-lg-12 col-xs-12">
+              <div>
+                <p><input class="cardnumber" type="text" id="cardnumber" placeholder="ADDRESS"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-xs-12">
+              <div>
+                <p><input class="cardnumber" type="text" id="cardnumber" placeholder="ADDRESS LINE 2"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-4">
+              <div>
+                <p><input class="reason" type="text" id="city" placeholder="CITY"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-3">
+              <div>
+                <p><input class="reason" type="text" id="state" placeholder="STATE"></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-5">
+              <div>
+                <p><input class="reason" type="text" id="zip" placeholder="ZIP CODE"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-xs-12">
+            <div class="TotalBox">
+  <div style="
+    padding-top: 30px;
+">
+              <div class="col-lg-6 col-xs-9">
+              <div>
+                <p class="apicostname">COLOR REC API</p><br>
+                <p class="percost">Per Cost $0.1/hit</p><br>
+                <p class="percost">Limit 100 hits per day</p><br>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-xs-3">
+              <div>
+                <p class="cost">$100</p>
+              </div>
+            </div>
+
+             <div class="col-lg-12 col-xs-12">
+              <hr>
+            </div>
+
+            <div class="col-lg-9 col-xs-9">
+              <div class="radio">
+                <label class="radiotext"><input type="radio" name="optradio">Use Plum Perfect's database of products</label>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-3">
+              <div>
+                <p class="cost">Free</p>
+              </div>
+            </div>
+
+            <div class="col-lg-9 col-xs-9 firstrow">
+              <div class="radio">
+                <label class="radiotext"><input type="radio" name="optradio">Create my own database of products</label>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-3 firstrow">
+              <div>
+                <p class="cost">$100</p>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-xs-12">
+              <hr>
+            </div>
+
+            <div class="col-lg-6 col-xs-9">
+              <div>
+                <p class="todayscost">Today's Cost</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-3">
+              <div>
+                <p class="cost2">$100</p>
+              </div>
+            </div>
+
+          </div>
+</div> <!-- End Col -->
+        </div> <!-- End Total Box -->
+
+      </div><!-- End Row -->
+
+      <div class="row">
+        <div class="col-lg-12 col-xs-12 paybtndiv">
+          <button class="paybtn" data-toggle="button" id="ColorSig">
+              <h1>PAY AND DOWNLOAD</h1>
+            </button>
+        </div>
+      </div>
+    </div> <!-- End Container Fluid -->
+
+    </div> <!-- End Wrap -->
+
+    <!-- Begin Footer -->
+    <!-- <footer class="footer">
+      <div class="container-fluid">
+        <p class="copyright">PLUM PERFECT © 2016</p>
+      </div>
+    </footer> -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="APIindex.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body></html>

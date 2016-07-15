@@ -1,0 +1,153 @@
+@media only screen and (max-width : 425px) {
+
+.mobilebtncenter {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.purchasebtn {
+  margin: auto;
+  text-align: center;
+}
+
+.ColorRecImg {
+  margin-top: 30px;
+}
+
+.ColorSigImg {
+  margin-top: 30px;
+}
+
+.MakeupPolice {
+  margin-top: 30px;
+}
+
+.loginbtn {
+  width: 100%;
+}
+
+.forgotpassword {
+  text-align: center;
+}
+
+.registeraccount {
+  text-align: center;
+}
+
+.right {
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+.loginheader {
+  padding-top: 100px;
+}
+
+.registerdiv {
+  width: 320px;
+}
+
+#firstname, #lastname, #phone, #email2, #company, #password, #reason {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 290px;
+  font-size: 14px;
+  color: black;
+}
+
+#lastname {
+  margin-top: 60px;
+}
+
+#phone {
+  margin-top: 10px;
+}
+
+#email2 {
+  margin-top: 60px;
+}
+
+#company {
+  margin-top: 10px;
+}
+
+#password {
+  margin-top: 60px;
+}
+
+#reason {
+  width: 290px !important;
+  margin-top: 10px;
+}
+
+.registerbtn {
+  width: 290px;
+}
+
+.TwitterBox, .InstagramBox, .FacebookBox {
+  width: 300px;
+  margin-top: 20px;
+}
+
+#zip {
+  width:120px;
+}
+
+#state {
+  width:80px;
+}
+
+.TotalBox {
+  width: 350px;
+  margin-bottom: 30px;
+  }
+
+.cost, .cost2 {
+  text-align: left;
+}
+
+.settingstitle {
+  margin-top: 30px;
+}
+
+.secondrow {
+  margin-top: 0px;
+}
+
+.editbtnouter {
+  margin-top: 30px;
+}
+
+.YourAPItitle {
+  margin-top: 20px;
+}
+
+.YourTitle {
+  margin-top: 20px;
+}
+
+.YourAPIsubtitle {
+  line-height: 20px;
+}
+
+.HitsBox {
+  width: 350px;
+  margin-bottom: 30px;
+  }
+
+.useagerow {
+  margin-top: 20px;
+}
+
+.rightfield {
+  text-align: left;
+}
+
+.bottomimagediv, .bottomimagediv2, .bottomimagediv3 {
+  display: none;
+}
+
+}

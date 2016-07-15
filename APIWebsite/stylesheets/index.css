@@ -1,0 +1,1154 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /*margin:  auto -30px;*/
+  padding: 50px 0px 0px 0px;
+}
+
+footer {
+  height: 50px;
+  background-color: white;
+  border-top: 1px solid #EBEBEB;
+}
+
+.anchor {
+  padding: 0px !important;
+  display: inline;
+}
+
+/* Custom page CSS*/
+.copyright {
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  color: #979797;
+  margin-top: 20px;
+}
+
+/*Navigation*/
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: #ffffff;
+  box-shadow: none;
+  border-bottom-color: #979797;
+  margin-bottom: 0px;
+}
+
+.dropdown-menu>li>a {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.loginbtn {
+  background-color: #FF358B;
+  border-style: none;
+  margin-right: 15px;
+  margin-top: 6px;
+}
+
+.loginbtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.loginbtn:hover {
+  background-color: #E12C79;
+}
+
+/*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*//*Title*/
+
+.header {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.maintitle {
+  background-color: #F4F4F4;
+  height: 80px;
+}
+
+.cs_detail {
+  margin-top: 25px;
+}
+
+/*API Descriptions*//*API Descriptions*//*API Descriptions*//*API Descriptions*//*API Descriptions*//*API Descriptions*/
+
+.APIHeaders {
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.APIParagraph {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.Subtitle1 /*Benefits*/ {
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #FF358B;
+  font-style: italic;
+}
+
+.Subtitle2 /*Features*/ {
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #0FACAA;
+  font-style: italic;
+}
+
+.Subtitle3 /*License*/ {
+  font-family: 'Georgia';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #862D93;
+  font-style: italic;
+}
+
+.indent {
+  margin-left: 16px;
+  line-height: 25px;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.purchasebtn {
+  background-color: #FF358B;
+  border-style: none;
+}
+
+.purchasebtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+.purchasebtn:hover {
+  background-color: #E12C79;
+}
+
+.ColorRecOuter {
+  width: 324px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.ColorSigOuter {
+  width: 232px;
+  margin: auto;
+}
+
+.MakeupPoliceOuter {
+  width: 255px;
+  margin: auto;
+}
+
+/*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*/
+
+.loginheader {
+  color: #000000;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10%;
+  letter-spacing: 6px;
+}
+
+#email {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 350px;
+  font-size: 14px;
+  color: black;
+}
+
+*::-webkit-input-placeholder {
+    color: black;
+    letter-spacing: 2px;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: black;
+    letter-spacing: 2px;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+    letter-spacing: 2px;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+    letter-spacing: 2px;
+}
+
+input {
+ outline:none;
+}
+
+.emailinput {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.passwordinput {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.loginbtnouter {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.loginbtn2 {
+  background-color: #711781;
+  border-style: none;
+  width: 350px;
+  height: 46px;
+}
+
+.loginbtn2>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.loginbtn2:hover {
+  background-color: #420D4B;
+}
+
+button:focus {
+    outline: none;
+}
+
+.forgottext {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.forgotpassword {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  text-align: left;
+  color: #711781;
+}
+
+.registeraccount {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  text-align: right;
+}
+
+.left {
+  padding-left: 0px;
+}
+
+.right {
+  padding-right: 0px;
+}
+
+.bottomimagediv {
+  margin: 150px auto 0px auto;
+}
+
+.bottomimage {
+  margin: auto;
+}
+
+/*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*//*Logout*/
+
+.logoutheader {
+  color: #000000;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 15%;
+  letter-spacing: 6px;
+}
+
+.bottomimagediv2 {
+  margin: 235px auto 0px auto;
+}
+
+.bottomimage2 {
+  margin: auto;
+}
+
+/*RESET PASSWORD*//*RESET PASSWORD*//*RESET PASSWORD*//*RESET PASSWORD*//*RESET PASSWORD*//*RESET PASSWORD*//*RESET PASSWORD*/
+
+.loginheader h3 {
+  color: #0FACAA;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 1%;
+  letter-spacing: 4px;
+}
+
+.bottomimagediv3 {
+  margin: 205px auto 0px auto;
+}
+
+.bottomimage3 {
+  margin: auto;
+}
+
+/*Temp Password*//*Temp Password*//*Temp Password*//*Temp Password*//*Temp Password*//*Temp Password*//*Temp Password*/
+
+.tempheader {
+  color: #000000;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 8%;
+  letter-spacing: 6px;
+  line-height: 25px;
+
+}
+
+.tempheader h3 {
+  color: #0FACAA;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 1%;
+  letter-spacing: 4px;
+}
+
+/*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*//*REGISTER*/
+
+.registerdiv {
+  width: 900px;
+}
+
+#firstname, #lastname, #phone, #email2, #company, #password, #reason {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 350px;
+  font-size: 14px;
+  color: black;
+}
+
+#reason {
+  width: 800px !important;
+}
+
+.registerbtnouter {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.registerbtn {
+  background-color: #711781;
+  border-style: none;
+  width: 350px;
+  height: 46px;
+}
+
+.registerbtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.registerbtn:hover {
+  background-color: #420D4B;
+}
+
+.registerheader {
+  color: #000000;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 6px;
+}
+
+.bottomimagediv4 {
+  margin: 70px auto 0px auto;
+}
+
+.bottomimage4 {
+  margin: auto;
+}
+
+/*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*//*Contact*/
+
+.contactheader {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  margin-top: 50px;
+}
+
+.socialrow {
+  margin-top: 50px;
+}
+
+.contactcol {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.TwitterBox {
+  width: 400px;
+  height: 206px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.FacebookBox {
+  width: 400px;
+  height: 206px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.InstagramBox {
+  width: 400px;
+  height: 206px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.SocialText {
+  text-align: center;
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+
+.twitterfollow {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.twitterhandle {
+  font-family: 'Georgia';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #FF358B;
+}
+
+.facebookfollow {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.facebookhandle {
+  font-family: 'Georgia';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #0FACAA;
+}
+
+.instagramfollow {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.instagramhandle {
+  font-family: 'Georgia';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #711781;
+}
+
+.bottomimagediv5 {
+  margin: 95px auto 0px auto;
+}
+
+.bottomimage5 {
+  margin: auto;
+}
+
+a.socialanchor {
+  color: black;
+}
+
+a.socialanchor:hover {
+  text-decoration: none;
+}
+
+/*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*//*Checkout*/
+
+.checkoutheader {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  margin-top: 50px;
+}
+
+.cardinfo {
+  text-align: left;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#checkfirstname, #checklastname {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 150px;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  margin-top: 50px;
+  }
+
+  .cardnumber {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 356px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #expmonth {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #ccv {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #expyear {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .CardBox {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+}
+
+#zipcode {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #city {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 110px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #state {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 90px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  #zip {
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    border-bottom: 1px solid;
+    width: 110px;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+.TotalBox {
+  width: 400px;
+  height: 310px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  margin: auto;
+}
+
+.apicostname {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.percost {
+  color: gray;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.cost {
+  text-align: right;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.cost2 {
+  text-align: right;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.todayscost {
+  text-align: left;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.paybtndiv {
+  text-align: center;
+}
+
+.paybtn {
+  background-color: #711781;
+  border-style: none;
+}
+
+.paybtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+.paybtn:hover {
+  background-color: #420D4B;
+}
+
+.radiotext {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 15px;
+}
+
+.radio {
+  margin: 0px;
+}
+
+.firstrow {
+  margin-top: 20px;
+}
+
+/*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*//*Settings*/
+
+.settingstitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.settingsubtitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.secondrow {
+  margin-top: 50px;
+}
+
+.changebtn {
+  background-color: #711781;
+  border-style: none;
+  margin-right: 15px;
+  margin-top: 6px;
+}
+
+.changebtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.changebtn:hover {
+  background-color: #420D4B;
+}
+
+.editbtn {
+  background-color: #0FACAA;
+  border-style: none;
+  margin-top: 6px;
+}
+
+.editbtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.editbtn:hover {
+  background-color: #0C8281;
+}
+
+.editbtnouter {
+  text-align: center;
+}
+
+.delete {
+  color: #D0021B;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+a.deleteanchor:hover {
+  text-decoration: none;
+}
+
+.settingsmodaltitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.settingsinput {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.settingsmodalheader {
+  border-bottom: none;
+}
+
+/*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*//*EDITSETTINGS*/
+
+.rightfield {
+  text-align: right;
+}
+
+.leftfield {
+  text-align: left;
+}
+
+.editsettingsbtn {
+  margin-top: 40px;
+}
+
+.cardinfo1 {
+  text-align: left;
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right:
+}
+
+.CardBox1 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 0px 0px 0px auto;
+}
+
+.CardBox2 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 0px auto 0px 0px;
+}
+
+/*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*//*DELETE*/
+
+
+.Deleteheader {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.deleteright {
+  text-align: right;
+}
+
+.deleteleft {
+  text-align: left;
+}
+
+.ConfirmationRegister {
+  text-align: center;
+}
+
+/*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*//*YOUR APIs*/
+
+.YourTitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.YourSubTitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.YourAPItitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.YourAPIsubtitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.howbtn {
+  background-color: #711781;
+  border-style: none;
+  margin-top: 6px;
+}
+
+.howbtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.howbtn:hover {
+  background-color: #420D4B;
+}
+
+.howrow {
+  margin-top: 30px;
+}
+
+.howbtn2 {
+  background-color: #D0021B;
+  border-style: none;
+  margin-top: 6px;
+}
+
+.howbtn2>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.howbtn2:hover {
+  background-color: #A40317;
+}
+
+a.viewdownload {
+  color: #0FACAA;
+}
+
+a.viewdownload:hover {
+  text-decoration: none;
+}
+
+a.viewdownload2 {
+  color: #D0021B;
+}
+
+a.viewdownload2:hover {
+  text-decoration: none;
+}
+
+/*Your APIs Popup*//*Your APIs Popup*//*Your APIs Popup*//*Your APIs Popup*//*Your APIs Popup*//*Your APIs Popup*//*Your APIs Popup*/
+
+.modaltitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modalhead {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.modalsubhead {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.modalapiname {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modaldate {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.rowbackground {
+  background-color: rgba(15,172,170,0.3);
+}
+
+.modal-footer {
+  text-align: center;
+  border-top: none;
+}
+
+.footertext {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+/*Confirmation*/
+
+.confirmationtitle {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.colorsigname {
+  font-weight: 500;
+}
+
+.gotobtn {
+  background-color: #711781;
+  border-style: none;
+  margin-top: 6px;
+}
+
+.gotobtn>h1 {
+  color: #ffffff;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+}
+
+.gotobtn:hover {
+  background-color: #420D4B;
+}
+
+
+
+.HitsBox {
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  margin: 80px 0px 0px 15px;
+}
+
+.paymentsubtitles {
+  font-family: 'Helvetica Neue';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-top: 50px;
+}
+
+.info {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+}
+
+.useagehead {
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
