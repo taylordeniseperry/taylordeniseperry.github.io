@@ -699,7 +699,7 @@ a.socialanchor:hover {
 
 .TotalBox {
   width: 400px;
-  height: 310px;
+  height: 180px;
   background-color: white;
   box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
   margin: auto;
@@ -710,6 +710,15 @@ a.socialanchor:hover {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 2px;
+  text-align: center;
+}
+
+.apicostname2 {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: left;
 }
 
 .percost {
@@ -721,10 +730,10 @@ a.socialanchor:hover {
 }
 
 .cost {
-  text-align: right;
+  text-align: center;
   font-family: 'Helvetica Neue';
   font-weight: 400;
-  font-size: 14px;
+  font-size: 55px;
   letter-spacing: 2px;
 }
 
@@ -1019,7 +1028,7 @@ a.viewdownload:hover {
 }
 
 a.viewdownload2 {
-  color: #D0021B;
+  color: #FF358B;
 }
 
 a.viewdownload2:hover {
