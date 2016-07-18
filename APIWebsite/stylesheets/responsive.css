@@ -181,10 +181,15 @@
 
 .CardBox1 {
   width: 300px;
+  margin-left: 0px;
 }
 
 .CardBox2 {
   width: 300px;
+}
+
+.updatebtns {
+  margin-top: 40px;
 }
 
 }
