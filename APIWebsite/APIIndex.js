@@ -9,4 +9,7 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 
+  $('[data-toggle="tooltip"]').tooltip();
+
+
 });
