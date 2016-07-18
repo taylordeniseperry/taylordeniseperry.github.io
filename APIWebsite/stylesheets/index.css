@@ -217,6 +217,16 @@ footer {
   color: black;
 }
 
+#email3 {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 350px;
+  font-size: 14px;
+  color: black;
+}
+
 *::-webkit-input-placeholder {
     color: black;
     letter-spacing: 2px;

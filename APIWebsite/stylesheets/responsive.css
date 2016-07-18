@@ -192,4 +192,14 @@
   margin-top: 40px;
 }
 
+#email3 {
+  border: none;
+  font-family: 'Helvetica Neue';
+  font-weight: 200;
+  border-bottom: 1px solid;
+  width: 300px;
+  font-size: 14px;
+  color: black;
+}
+
 }
