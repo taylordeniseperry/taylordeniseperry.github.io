@@ -103,6 +103,7 @@
 .TotalBox {
   width: 350px;
   margin-bottom: 30px;
+  margin-top: 30px;
   }
 
 .cost, .cost2 {
@@ -164,6 +165,10 @@
 
 .cardbox {
   width: 300px;
+}
+
+.cardinfo {
+  margin-top: 50px;
 }
 
 }
