@@ -192,7 +192,18 @@ footer {
 
 .MakeupPoliceOuter {
   width: 255px;
-  margin: auto;
+}
+
+.MakeupPolice {
+  margin-left: 30px;
+}
+
+.Widget {
+  margin-bottom: 20px;
+}
+
+.download {
+  margin-bottom: 40px;
 }
 
 /*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*//*Login*/
