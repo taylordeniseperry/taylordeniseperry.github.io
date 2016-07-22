@@ -11,7 +11,7 @@ body {
 
 #wrap {
   width: 300px;
-  height: 410px;
+  height: 530px;
   background-color: white;
   border: solid black 1px;
   margin: auto;
@@ -19,9 +19,15 @@ body {
 
 .logodiv {
   text-align: center;
-  padding: 10px 0px 5px 0px;
+  padding: 5px 0px 0px 0px;
   border-bottom: solid black 1px;
 }
+
+.logodiv2 {
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+}
+
 
 .header {
   font-family: 'Helvetica Neue';
@@ -41,6 +47,12 @@ body {
 
 .buttondiv {
   text-align: center;
+  margin-top: 10px;
+}
+
+.linzie {
+  text-align: center;
+  padding-left: 10px;
 }
 
 .btn1 {
@@ -88,7 +100,7 @@ body {
   font-size: 15px;
   text-shadow: none;
   color: black;
-  visibility: hidden;
+  text-align: center;
 }
 
 .carousel-inner {
@@ -153,9 +165,9 @@ body {
 .matchtext {
   font-family: 'Helvetica Neue';
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
-  margin: 20px auto 25px auto;
+  margin: 20px auto 15px auto;
   line-height: 20px;
 }
 
@@ -171,6 +183,13 @@ body {
   color: #FF358B;
 }
 
+.colorname {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: black;
+  margin: 5px auto 0px auto;
+}
 
 
 /*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*//*UPLOAD*/
