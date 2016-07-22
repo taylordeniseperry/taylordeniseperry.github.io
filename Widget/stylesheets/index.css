@@ -338,13 +338,20 @@ input::-webkit-file-upload-button {
   background-image: url("../img/Girl.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 .info3 {
   width: 300px;
   margin: auto;
   padding-top: 50px;
+  text-align: center;
+}
+
+.info4 {
+  width: 300px;
+  margin: auto;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -370,7 +377,7 @@ input::-webkit-file-upload-button {
   border-radius: 10px;
   background-color: tan;
   margin-top: 25px;
-  margin: 15px auto;
+  margin: 15px auto 0px auto;
 }
 
 .color8 {
@@ -379,7 +386,7 @@ input::-webkit-file-upload-button {
   border-radius: 10px;
   background-color: black;
   margin-top: 25px;
-  margin: 15px auto;
+  margin: 15px auto 0px auto;
 }
 
 .buttondiv4 {
