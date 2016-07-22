@@ -19,12 +19,12 @@ $(document).ready(function($) {
     }
   }
 
-  $('.btn').on('click', function() {
-    var $this = $(this);
-  $this.button('loading');
-    setTimeout(function() {
-       $this.button('reset');
-   }, 8000);
-});
+//   $('.btn').on('click', function() {
+//     var $this = $(this);
+//   $this.button('loading');
+//     setTimeout(function() {
+//        $this.button('reset');
+//    }, 8000);
+// });
 
 });
