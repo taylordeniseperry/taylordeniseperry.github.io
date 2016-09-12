@@ -43,14 +43,54 @@ body {
   text-align: center;
 }
 
+.buttondiv5 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.buttondiv5 a {
+  color: black;
+}
+
+.btn5 {
+  background-color: #EAE9E9;
+  border-style: none;
+  padding: 15px 15px;
+  color: black;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.facebook {
+  border-style: none;
+  padding: 15px 15px;
+  color: white;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
 .btn1 {
   background-color: #C81F2B;
   border-style: none;
   padding: 10px 15px;
+  color: white;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 3px;
 }
 
-.uploadbtn a {
-  color: white;
+.uploadbtn2 {
+  padding: 5px 0px;
+}
+
+.uploadbtn2 a {
+  color: black;
   font-family: 'Helvetica Neue';
   font-weight: 300;
   font-size: 13px;
@@ -201,6 +241,20 @@ body {
   line-height: 16px;
 }
 
+.header4 {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  text-align: left;
+  padding-top: 15px;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.video {
+  text-align: center;
+}
+
 .blue-btn:hover,
 .blue-btn:active,
 .blue-btn:focus,
@@ -272,6 +326,10 @@ input::-webkit-file-upload-button {
 
 /*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*//*MATCHES*/
 
+h3 {
+  line-height: 23px;
+}
+
 .carousel-caption {
   position: initial;
   padding-bottom: 10px;
@@ -301,7 +359,12 @@ input::-webkit-file-upload-button {
   background-color: #C81F2B;
   border-style: none;
   padding: 10px 15px;
-  margin-top: 15px;
+  color: white;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 
 /*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*/
