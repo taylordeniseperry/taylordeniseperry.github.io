@@ -151,33 +151,33 @@ body {
 }
 
 .color1 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: pink;
   margin-top: 15px;
 }
 
 .color2 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: black;
   margin-top: 15px;
 }
 
 .color3 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: tan;
   margin-top: 15px;
 }
 
 .color4 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: black;
   margin-top: 15px;
 }
@@ -249,6 +249,11 @@ body {
   padding-top: 15px;
   letter-spacing: 1px;
   line-height: 16px;
+}
+
+.tips {
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 .video {
@@ -398,6 +403,14 @@ h3 {
   margin-top: 20px;
 }
 
+.formspacing {
+  margin-bottom: 0px;
+}
+
+.facebookspacing {
+  margin-bottom: 20px;
+}
+
 .buttondiv3 {
   text-align: center;
   margin-top: 20px;
@@ -413,6 +426,10 @@ h3 {
   padding-top: 20px;
   letter-spacing: 1px;
   line-height: 16px;
+}
+
+.colorsig {
+  padding-top: 10px;
 }
 
 .picture2 {
@@ -435,39 +452,38 @@ h3 {
 .info4 {
   width: 300px;
   margin: auto;
-  padding-top: 10px;
   text-align: center;
 }
 
 .color5 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: pink;
   margin: auto;
 }
 
 .color6 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: black;
   margin: auto;
 }
 
 .color7 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: tan;
   margin-top: 25px;
   margin: 15px auto 0px auto;
 }
 
 .color8 {
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
   background-color: black;
   margin-top: 25px;
   margin: 15px auto 0px auto;
