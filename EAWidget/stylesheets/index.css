@@ -11,7 +11,7 @@ body {
 
 #wrap {
   width: 300px;
-  height: 410px;
+  height: 460px;
   background-color: white;
   border: solid black 1px;
   margin: auto;
@@ -186,8 +186,12 @@ body {
   font-family: 'Georgia';
   font-style: italic;
   font-weight: 300;
-  font-size: 10px;
-  margin-top: 5px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  width: 220px;
+  text-align: left;
 }
 
 .matchtext {
@@ -229,6 +233,11 @@ body {
   padding-top: 25px;
   letter-spacing: 1px;
   line-height: 16px;
+}
+
+.error {
+  margin-top: 5px;
+  padding-top: 0px;
 }
 
 .header22 {
@@ -335,6 +344,38 @@ h3 {
   line-height: 23px;
 }
 
+.dropdown-menu>li>a {
+  display: inline;
+}
+
+.dropdownswatch {
+  height:16px;
+  width:16px;
+  border-radius: 8px;
+  background-color:black;
+  display:block;
+  float: left;
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  width: 100%;
+  height: 120px;
+  overflow: auto;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.colorname {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: black;
+  margin: 5px auto 5px auto;
+}
+
 .carousel-caption {
   position: initial;
   padding-bottom: 10px;
@@ -371,6 +412,38 @@ h3 {
   letter-spacing: 3px;
   margin-top: 10px;
 }
+
+/*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*//*FACEPICKER*/
+
+.faceswatch {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: black;
+  float: left;
+}
+
+.skintonelist h1 {  
+  margin-left: 40px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+
+.facediv {
+  width: 100%;
+  height: 285px;
+  overflow-y: auto;
+  padding-top: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.facenames {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 13px;
+  color: black;
+}
+
 
 /*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*//*REUPLOAD*/
 
@@ -428,6 +501,10 @@ h3 {
   line-height: 16px;
 }
 
+.space {
+  margin-bottom: 10px;
+}
+
 .colorsig {
   padding-top: 10px;
 }
@@ -461,6 +538,7 @@ h3 {
   border-radius: 15px;
   background-color: pink;
   margin: auto;
+  float: left;
 }
 
 .color6 {
@@ -469,6 +547,7 @@ h3 {
   border-radius: 15px;
   background-color: black;
   margin: auto;
+  float: left;
 }
 
 .color7 {
@@ -477,7 +556,8 @@ h3 {
   border-radius: 15px;
   background-color: tan;
   margin-top: 25px;
-  margin: 15px auto 0px auto;
+  margin: auto;
+  float: left;
 }
 
 .color8 {
@@ -486,7 +566,8 @@ h3 {
   border-radius: 15px;
   background-color: black;
   margin-top: 25px;
-  margin: 15px auto 0px auto;
+  margin:auto;
+  float: left;
 }
 
 .buttondiv4 {
