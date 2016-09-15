@@ -194,6 +194,17 @@ body {
   text-align: left;
 }
 
+.attribute1 {
+  font-family: 'Georgia';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 10px;
+  float: left;
+  width: 30px;
+  text-align: left;
+}
+
 .matchtext {
   font-family: 'Helvetica Neue';
   font-weight: 300;
