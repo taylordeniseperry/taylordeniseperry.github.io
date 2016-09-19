@@ -19,7 +19,7 @@ body {
 
 #wrap2 {
   width: 300px;
-  height: 520px;
+  height: 490px;
   background-color: white;
   border: solid black 1px;
   margin: auto;
@@ -476,8 +476,9 @@ h3 {
 }
 
 .reupload {
-  margin-top: 15px;
+  margin-top: 50px;
   color: black;
+  font-size: 14px;
 }
 
 /*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*/
@@ -525,12 +526,22 @@ h3 {
   line-height: 16px;
 }
 
+.signincopy {
+  margin-top: 20px !important;
+}
+
+.headerupdate {
+  padding-bottom: 10px;
+}
+
 .space {
   margin-bottom: 10px;
 }
 
 .colorsig {
   padding-top: 10px;
+  margin-bottom: 15px;
+  font-size: 13px;
 }
 
 .picture2 {
