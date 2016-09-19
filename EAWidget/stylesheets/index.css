@@ -11,7 +11,15 @@ body {
 
 #wrap {
   width: 300px;
-  height: 460px;
+  height: 475px;
+  background-color: white;
+  border: solid black 1px;
+  margin: auto;
+}
+
+#wrap2 {
+  width: 300px;
+  height: 520px;
   background-color: white;
   border: solid black 1px;
   margin: auto;
@@ -465,6 +473,11 @@ h3 {
   font-size: 15px;
   text-align: center;
   margin-top: 30px;
+}
+
+.reupload {
+  margin-top: 15px;
+  color: black;
 }
 
 /*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*//*SIGNIN*/
